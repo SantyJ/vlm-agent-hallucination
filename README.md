@@ -2,8 +2,6 @@
 
 Can a single confident-but-lying subagent corrupt a multi-agent system's decision-making? This project audits **confidence bias** and **hallucination propagation** in vision-language model (VLM) pipelines, using synthetic city navigation and chess as evaluation domains.
 
-Built for CS 672 — Rutgers University, Spring 2026.
-
 ---
 
 ## Overview
