@@ -140,29 +140,16 @@ vlm-agent-hallucination/
 pip install -r requirements.txt
 ```
 
-### 2. Install GPU dependencies (platform-specific)
+### 2. Install GPU dependencies
 
-The Qwen2-VL inference requires `torch`, `transformers`, and `qwen-vl-utils`. The `torch` installation varies by platform:
+The Qwen2-VL inference requires `torch`, `transformers`, and `qwen-vl-utils`. This project was run on a Linux VM with NVIDIA GPUs (4× RTX 4090):
 
-**Linux / Windows (CUDA 12.1):**
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install transformers accelerate qwen-vl-utils
 ```
 
-**Mac (Apple Silicon, MPS):**
-```bash
-pip install torch torchvision
-pip install transformers accelerate qwen-vl-utils
-```
-
-**CPU only (no GPU):**
-```bash
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-pip install transformers accelerate qwen-vl-utils
-```
-
-> **Note:** The full experiment was run with 4× RTX 4090 GPUs. CPU inference is extremely slow and not recommended for the full 1,200-trial run.
+> If your VM has a different CUDA version, replace `cu121` with the appropriate tag (e.g. `cu118`, `cu124`). Check with `nvidia-smi`.
 
 ### 3. Download the Qwen2-VL model
 
