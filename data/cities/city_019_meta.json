@@ -1,0 +1,214 @@
+{
+    "city_id": 19,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Financial Center": [
+            0,
+            2
+        ],
+        "Police HQ": [
+            6,
+            2
+        ],
+        "Aquarium": [
+            0,
+            9
+        ],
+        "Shopping Mall": [
+            0,
+            6
+        ],
+        "City Hall": [
+            9,
+            0
+        ],
+        "Harbor": [
+            2,
+            8
+        ],
+        "Main Station": [
+            5,
+            4
+        ],
+        "University": [
+            5,
+            9
+        ],
+        "Central Library": [
+            4,
+            6
+        ],
+        "Zoo": [
+            3,
+            4
+        ]
+    },
+    "start": "Police HQ",
+    "end": "City Hall",
+    "shortest_path_nodes": [
+        [
+            6,
+            2
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            8,
+            2
+        ],
+        [
+            9,
+            2
+        ],
+        [
+            9,
+            1
+        ],
+        [
+            9,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Police HQ",
+        "i64",
+        "i74",
+        "i83",
+        "i82",
+        "City Hall"
+    ],
+    "shortest_path_landmarks": [
+        "Police HQ",
+        "City Hall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Police HQ",
+            "i64",
+            "i74",
+            "i83",
+            "i82",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i64",
+            "i74",
+            "i73",
+            "i82",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i64",
+            "i63",
+            "i73",
+            "i82",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i73",
+            "i82",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i64",
+            "i74",
+            "i73",
+            "i72",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i64",
+            "i63",
+            "i73",
+            "i72",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i73",
+            "i72",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i64",
+            "i63",
+            "i62",
+            "i72",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "City Hall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Police HQ",
+            "City Hall"
+        ]
+    ],
+    "num_equivalent_paths": 10,
+    "path_length": 5
+}

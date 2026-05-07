@@ -1,0 +1,1520 @@
+{
+    "city_id": 35,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Police HQ": [
+            4,
+            9
+        ],
+        "Grand Park": [
+            8,
+            8
+        ],
+        "General Hospital": [
+            7,
+            2
+        ],
+        "Aquarium": [
+            4,
+            2
+        ],
+        "Shopping Mall": [
+            7,
+            6
+        ],
+        "City Hall": [
+            6,
+            8
+        ],
+        "Tech Hub": [
+            1,
+            9
+        ],
+        "Main Station": [
+            1,
+            3
+        ],
+        "National Museum": [
+            2,
+            8
+        ],
+        "Airport": [
+            3,
+            8
+        ]
+    },
+    "start": "Police HQ",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Police HQ",
+        "i36",
+        "i27",
+        "Tech Hub",
+        "i18",
+        "i17",
+        "i16",
+        "i15",
+        "i14",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "Police HQ",
+        "Tech Hub",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "Tech Hub",
+            "i18",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "National Museum",
+            "i18",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "National Museum",
+            "i18",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "National Museum",
+            "i18",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "National Museum",
+            "i26",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i26",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i26",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i26",
+            "i17",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "National Museum",
+            "i26",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i26",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i25",
+            "i16",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i25",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i33",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i33",
+            "i24",
+            "i15",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i33",
+            "i24",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i33",
+            "i32",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i32",
+            "i23",
+            "i14",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "i27",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i33",
+            "i24",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i33",
+            "i32",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i32",
+            "i23",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i36",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "Airport",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i33",
+            "i32",
+            "i31",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i32",
+            "i31",
+            "i22",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i39",
+            "i31",
+            "i22",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Police HQ",
+            "Tech Hub",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "National Museum",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "Police HQ",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 84,
+    "path_length": 9
+}

@@ -1,0 +1,306 @@
+{
+    "city_id": 47,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Tech Hub": [
+            4,
+            0
+        ],
+        "Shopping Mall": [
+            3,
+            6
+        ],
+        "Central Library": [
+            1,
+            1
+        ],
+        "Convention Center": [
+            7,
+            2
+        ],
+        "Fire Station": [
+            5,
+            7
+        ],
+        "Aquarium": [
+            5,
+            2
+        ],
+        "National Museum": [
+            8,
+            4
+        ],
+        "General Hospital": [
+            3,
+            8
+        ],
+        "Stadium": [
+            2,
+            9
+        ],
+        "Grand Park": [
+            8,
+            1
+        ]
+    },
+    "start": "Central Library",
+    "end": "National Museum",
+    "shortest_path_nodes": [
+        [
+            1,
+            1
+        ],
+        [
+            2,
+            1
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            8,
+            3
+        ],
+        [
+            8,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "Central Library",
+        "i21",
+        "i22",
+        "i32",
+        "i39",
+        "i48",
+        "i57",
+        "i66",
+        "i75",
+        "National Museum"
+    ],
+    "shortest_path_landmarks": [
+        "Central Library",
+        "National Museum"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Central Library",
+            "i21",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i57",
+            "i66",
+            "i75",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i12",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i57",
+            "i66",
+            "i75",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i21",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i57",
+            "i66",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i12",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i57",
+            "i66",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i21",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i57",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i12",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i57",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i21",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i49",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i12",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i49",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i21",
+            "i22",
+            "i32",
+            "i39",
+            "i40",
+            "i49",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i12",
+            "i22",
+            "i32",
+            "i39",
+            "i40",
+            "i49",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i21",
+            "i22",
+            "i32",
+            "i33",
+            "i40",
+            "i49",
+            "i58",
+            "i67",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "i12",
+            "i22",
+            "i32",
+            "i33",
+            "i40",
+            "i49",
+            "i58",
+            "i67",
+            "National Museum"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ],
+        [
+            "Central Library",
+            "National Museum"
+        ]
+    ],
+    "num_equivalent_paths": 12,
+    "path_length": 9
+}

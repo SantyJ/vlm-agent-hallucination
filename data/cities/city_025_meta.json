@@ -1,0 +1,100 @@
+{
+    "city_id": 25,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Convention Center": [
+            1,
+            3
+        ],
+        "Zoo": [
+            4,
+            3
+        ],
+        "National Museum": [
+            7,
+            5
+        ],
+        "Stadium": [
+            0,
+            9
+        ],
+        "City Hall": [
+            1,
+            2
+        ],
+        "Central Library": [
+            4,
+            7
+        ],
+        "Financial Center": [
+            3,
+            2
+        ],
+        "General Hospital": [
+            8,
+            2
+        ],
+        "Fire Station": [
+            0,
+            8
+        ],
+        "University": [
+            1,
+            6
+        ]
+    },
+    "start": "Central Library",
+    "end": "Zoo",
+    "shortest_path_nodes": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Central Library",
+        "i40",
+        "i39",
+        "i38",
+        "Zoo"
+    ],
+    "shortest_path_landmarks": [
+        "Central Library",
+        "Zoo"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Central Library",
+            "i40",
+            "i39",
+            "i38",
+            "Zoo"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Central Library",
+            "Zoo"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 4
+}

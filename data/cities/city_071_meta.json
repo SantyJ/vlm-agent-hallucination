@@ -1,0 +1,226 @@
+{
+    "city_id": 71,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "General Hospital": [
+            2,
+            8
+        ],
+        "Airport": [
+            8,
+            3
+        ],
+        "University": [
+            1,
+            7
+        ],
+        "Shopping Mall": [
+            1,
+            9
+        ],
+        "Aquarium": [
+            2,
+            9
+        ],
+        "Financial Center": [
+            7,
+            0
+        ],
+        "Stadium": [
+            0,
+            5
+        ],
+        "City Hall": [
+            1,
+            6
+        ],
+        "Tech Hub": [
+            5,
+            6
+        ],
+        "National Museum": [
+            1,
+            1
+        ]
+    },
+    "start": "City Hall",
+    "end": "Airport",
+    "shortest_path_nodes": [
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i14",
+        "i20",
+        "i28",
+        "i38",
+        "i48",
+        "i57",
+        "i66",
+        "i75",
+        "Airport"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "Airport"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i28",
+            "i38",
+            "i48",
+            "i57",
+            "i66",
+            "i75",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i28",
+            "i38",
+            "i48",
+            "i57",
+            "i66",
+            "i65",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i28",
+            "i38",
+            "i48",
+            "i57",
+            "i56",
+            "i65",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i28",
+            "i38",
+            "i48",
+            "i47",
+            "i56",
+            "i65",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i28",
+            "i38",
+            "i37",
+            "i47",
+            "i56",
+            "i65",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i28",
+            "i27",
+            "i37",
+            "i47",
+            "i56",
+            "i65",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "i14",
+            "i20",
+            "i19",
+            "i27",
+            "i37",
+            "i47",
+            "i56",
+            "i65",
+            "Airport"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "City Hall",
+            "Airport"
+        ]
+    ],
+    "num_equivalent_paths": 7,
+    "path_length": 9
+}

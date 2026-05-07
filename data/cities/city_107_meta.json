@@ -1,0 +1,370 @@
+{
+    "city_id": 107,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Shopping Mall": [
+            8.02431402585044,
+            2.8453344770741653
+        ],
+        "Financial Center": [
+            0.7477421546636396,
+            3.037408355276691
+        ],
+        "Harbor": [
+            0.052739910965519,
+            -0.12537894248108833
+        ],
+        "General Hospital": [
+            9.0522631739202,
+            3.1850159253601316
+        ],
+        "Police HQ": [
+            5.068261656326373,
+            0.8383786502659267
+        ],
+        "Fire Station": [
+            3.06560360814783,
+            6.717752142986118
+        ],
+        "Airport": [
+            1.2012681875982414,
+            7.75538081205095
+        ],
+        "Convention Center": [
+            2.0509886209489046,
+            9.163575642249981
+        ],
+        "Main Station": [
+            4.008721042271962,
+            3.1650663274266146
+        ],
+        "Central Library": [
+            6.802941015687358,
+            8.743004636488633
+        ]
+    },
+    "start": "Convention Center",
+    "end": "Shopping Mall",
+    "shortest_path_nodes": [
+        [
+            2.0509886209489046,
+            9.163575642249981
+        ],
+        [
+            2.1609225192728934,
+            7.850592438896514
+        ],
+        [
+            2.1528979031234994,
+            7.23651635525313
+        ],
+        [
+            3.06560360814783,
+            6.717752142986118
+        ],
+        [
+            4.0528345418158755,
+            7.042601104255553
+        ],
+        [
+            4.21790503347341,
+            6.096235852696125
+        ],
+        [
+            3.865630050525929,
+            4.78426833173218
+        ],
+        [
+            4.852468628154317,
+            5.286522789317196
+        ],
+        [
+            6.270397809501524,
+            5.139618279270648
+        ],
+        [
+            5.844502999949125,
+            3.9401700803581887
+        ],
+        [
+            6.712624057934008,
+            4.137795589648722
+        ],
+        [
+            7.977166476563376,
+            3.7110752323600535
+        ],
+        [
+            8.02431402585044,
+            2.8453344770741653
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i25",
+        "i24",
+        "Fire Station",
+        "i40",
+        "i39",
+        "i38",
+        "i46",
+        "i56",
+        "i55",
+        "i65",
+        "i73",
+        "Shopping Mall"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "Fire Station",
+        "Shopping Mall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i38",
+            "i46",
+            "i56",
+            "i55",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i46",
+            "i56",
+            "i55",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i56",
+            "i55",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i38",
+            "i46",
+            "i56",
+            "i66",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i46",
+            "i56",
+            "i66",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i56",
+            "i66",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i67",
+            "i66",
+            "i65",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i38",
+            "i46",
+            "i56",
+            "i66",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i46",
+            "i56",
+            "i66",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i56",
+            "i66",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i67",
+            "i66",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i25",
+            "i24",
+            "Fire Station",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i67",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "Shopping Mall"
+        ]
+    ],
+    "num_equivalent_paths": 12,
+    "path_length": 12
+}

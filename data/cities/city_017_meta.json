@@ -1,0 +1,996 @@
+{
+    "city_id": 17,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Police HQ": [
+            3,
+            6
+        ],
+        "Aquarium": [
+            7,
+            1
+        ],
+        "Central Library": [
+            9,
+            4
+        ],
+        "Stadium": [
+            9,
+            0
+        ],
+        "Shopping Mall": [
+            3,
+            5
+        ],
+        "University": [
+            7,
+            4
+        ],
+        "Tech Hub": [
+            7,
+            2
+        ],
+        "Main Station": [
+            4,
+            6
+        ],
+        "Financial Center": [
+            0,
+            9
+        ],
+        "Harbor": [
+            2,
+            5
+        ]
+    },
+    "start": "Main Station",
+    "end": "Aquarium",
+    "shortest_path_nodes": [
+        [
+            4,
+            6
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            6
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            7,
+            1
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i52",
+        "i62",
+        "i69",
+        "i68",
+        "University",
+        "i67",
+        "Tech Hub",
+        "Aquarium"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "University",
+        "Tech Hub",
+        "Aquarium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i52",
+            "i62",
+            "i69",
+            "i68",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i62",
+            "i61",
+            "i68",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i61",
+            "i68",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i61",
+            "i68",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i62",
+            "i61",
+            "i60",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i61",
+            "i60",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i61",
+            "i60",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "University",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i61",
+            "i60",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i61",
+            "i60",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i59",
+            "i67",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i59",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i48",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i39",
+            "i48",
+            "i58",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i59",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i39",
+            "i48",
+            "i58",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i48",
+            "i47",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i39",
+            "i48",
+            "i47",
+            "i57",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "i42",
+            "i41",
+            "i40",
+            "i39",
+            "i38",
+            "i47",
+            "i57",
+            "Aquarium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "University",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Main Station",
+            "Aquarium"
+        ]
+    ],
+    "num_equivalent_paths": 56,
+    "path_length": 8
+}

@@ -1,0 +1,122 @@
+{
+    "city_id": 114,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Tech Hub": [
+            3.200358626106956,
+            5.89869056677508
+        ],
+        "National Museum": [
+            1.743142204073868,
+            -0.26876839915376255
+        ],
+        "Convention Center": [
+            9.274243649274343,
+            1.8502225783227482
+        ],
+        "Fire Station": [
+            -0.18501862574228078,
+            6.954675134842633
+        ],
+        "Financial Center": [
+            3.8478897024884504,
+            4.092672445041562
+        ],
+        "Police HQ": [
+            0.04350736493549806,
+            -0.011198594590585198
+        ],
+        "Airport": [
+            8.85373792022565,
+            9.00445918815984
+        ],
+        "Main Station": [
+            6.188879251429669,
+            8.137848091087033
+        ],
+        "Stadium": [
+            -0.044547780344658894,
+            8.177565700859656
+        ],
+        "Aquarium": [
+            5.704465717252333,
+            5.778029001344157
+        ]
+    },
+    "start": "Tech Hub",
+    "end": "Fire Station",
+    "shortest_path_nodes": [
+        [
+            3.200358626106956,
+            5.89869056677508
+        ],
+        [
+            2.1774439742840124,
+            5.8092766838469085
+        ],
+        [
+            1.068081595216868,
+            6.016611062752327
+        ],
+        [
+            -0.10128773312461356,
+            5.8893091401739195
+        ],
+        [
+            -0.18501862574228078,
+            6.954675134842633
+        ]
+    ],
+    "shortest_path_names": [
+        "Tech Hub",
+        "i21",
+        "i13",
+        "i06",
+        "Fire Station"
+    ],
+    "shortest_path_landmarks": [
+        "Tech Hub",
+        "Fire Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Tech Hub",
+            "i21",
+            "i13",
+            "i06",
+            "Fire Station"
+        ],
+        [
+            "Tech Hub",
+            "i21",
+            "i13",
+            "i14",
+            "Fire Station"
+        ],
+        [
+            "Tech Hub",
+            "i21",
+            "i22",
+            "i14",
+            "Fire Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Tech Hub",
+            "Fire Station"
+        ],
+        [
+            "Tech Hub",
+            "Fire Station"
+        ],
+        [
+            "Tech Hub",
+            "Fire Station"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 4
+}

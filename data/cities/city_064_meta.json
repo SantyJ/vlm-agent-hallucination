@@ -1,0 +1,220 @@
+{
+    "city_id": 64,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "General Hospital": [
+            8,
+            1
+        ],
+        "National Museum": [
+            8,
+            7
+        ],
+        "Police HQ": [
+            3,
+            1
+        ],
+        "Harbor": [
+            9,
+            8
+        ],
+        "Airport": [
+            7,
+            9
+        ],
+        "Grand Park": [
+            9,
+            3
+        ],
+        "Zoo": [
+            0,
+            3
+        ],
+        "University": [
+            0,
+            6
+        ],
+        "Fire Station": [
+            7,
+            0
+        ],
+        "Shopping Mall": [
+            5,
+            0
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Grand Park",
+    "shortest_path_nodes": [
+        [
+            7,
+            0
+        ],
+        [
+            8,
+            0
+        ],
+        [
+            9,
+            0
+        ],
+        [
+            9,
+            1
+        ],
+        [
+            9,
+            2
+        ],
+        [
+            9,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i75",
+        "i83",
+        "i84",
+        "i85",
+        "Grand Park"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Grand Park"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i75",
+            "i83",
+            "i84",
+            "i85",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i75",
+            "General Hospital",
+            "i84",
+            "i85",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i67",
+            "General Hospital",
+            "i84",
+            "i85",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i75",
+            "General Hospital",
+            "i76",
+            "i85",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i67",
+            "General Hospital",
+            "i76",
+            "i85",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i67",
+            "i68",
+            "i76",
+            "i85",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i75",
+            "General Hospital",
+            "i76",
+            "i77",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i67",
+            "General Hospital",
+            "i76",
+            "i77",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i67",
+            "i68",
+            "i76",
+            "i77",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "i67",
+            "i68",
+            "i69",
+            "i77",
+            "Grand Park"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "Grand Park"
+        ],
+        [
+            "Fire Station",
+            "Grand Park"
+        ]
+    ],
+    "num_equivalent_paths": 10,
+    "path_length": 5
+}

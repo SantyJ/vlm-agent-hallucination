@@ -1,0 +1,214 @@
+{
+    "city_id": 8,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Central Library": [
+            7,
+            0
+        ],
+        "Airport": [
+            3,
+            2
+        ],
+        "General Hospital": [
+            4,
+            7
+        ],
+        "City Hall": [
+            1,
+            1
+        ],
+        "Financial Center": [
+            4,
+            0
+        ],
+        "Zoo": [
+            9,
+            7
+        ],
+        "Shopping Mall": [
+            5,
+            0
+        ],
+        "Stadium": [
+            2,
+            9
+        ],
+        "Tech Hub": [
+            7,
+            9
+        ],
+        "Convention Center": [
+            3,
+            3
+        ]
+    },
+    "start": "Tech Hub",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "shortest_path_names": [
+        "Tech Hub",
+        "i63",
+        "i53",
+        "i44",
+        "i43",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Tech Hub",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Tech Hub",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i63",
+            "i53",
+            "i52",
+            "i51",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i63",
+            "i62",
+            "i52",
+            "i51",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i71",
+            "i62",
+            "i52",
+            "i51",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i63",
+            "i62",
+            "i61",
+            "i51",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i71",
+            "i62",
+            "i61",
+            "i51",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "i71",
+            "i70",
+            "i61",
+            "i51",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Tech Hub",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 10,
+    "path_length": 5
+}

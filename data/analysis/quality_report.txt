@@ -1,0 +1,77 @@
+=================================================================
+DATA QUALITY AUDIT REPORT
+=================================================================
+Cities audited: 120
+
+─────────────────────────────────────────────────────────────────
+[CHECK 1] Ground-truth path internal consistency
+─────────────────────────────────────────────────────────────────
+  PASS — all stored paths are internally consistent.
+
+[CHECK 2] Label uniqueness within each city
+  PASS — no duplicate landmark names detected.
+
+[CHECK 3] Label format validity in paths
+  PASS — all path labels match expected formats.
+
+[CHECK 4] Start/end landmark quadrant visibility
+  PASS — all start/end landmarks visible in at least one quadrant.
+
+[CHECK 4] Start/end landmark quadrant visibility:
+  Start quadrant distribution: {'NW': 34, 'NE': 29, 'SW': 32, 'SE': 29}
+  End   quadrant distribution: {'NW': 34, 'NE': 35, 'SW': 26, 'SE': 29}
+  Cities where start & end share a quadrant: 31 / 120
+  (Note: overlap zone = 50px; nodes there appear in 2 quadrants)
+
+[CHECK 5] Scoring threshold sensitivity
+
+[CHECK 5] Threshold sensitivity (% correct, baseline Arch A):
+  threshold=0.3  →  44.2% correct
+  threshold=0.4  →  20.4% correct
+  threshold=0.5  →  12.9% correct ← current
+  threshold=0.6  →  12.9% correct
+  threshold=0.7  →  5.0% correct
+
+[CHECK 6] Path length vs scoring
+
+[CHECK 6] Path length vs Jaccard correlation: r = -0.2644
+  Mean path length: 6.67  (min=1, max=18)
+  Length ≤4: mean Jaccard = 0.384
+  Length 5-6: mean Jaccard = 0.349
+  Length 7-8: mean Jaccard = 0.266
+  Length 9-12: mean Jaccard = 0.269
+  Length >12: mean Jaccard = 0.314
+
+[CHECK 7] Equivalent paths analysis
+  Min equivalent paths: 1
+  Max equivalent paths: 11440
+  Mean: 143.2  Median: 6
+  Cities with >10 equivalent paths: 39
+  Note: scoring uses best-of-all-equivalents Jaccard, so
+  more equivalent paths = more lenient scoring, not stricter.
+
+[CHECK 8] Worst baseline cities (Jaccard < 0.1, Arch A)
+  Count: 6 trials out of 120
+  City 015: jaccard_strict=0.000  jaccard_loose=0.000  path_len=1  equiv_paths=1
+  City 019: jaccard_strict=0.000  jaccard_loose=0.000  path_len=5  equiv_paths=10
+  City 115: jaccard_strict=0.000  jaccard_loose=0.000  path_len=4  equiv_paths=3
+  City 021: jaccard_strict=0.062  jaccard_loose=0.074  path_len=6  equiv_paths=15
+  City 070: jaccard_strict=0.089  jaccard_loose=0.040  path_len=10  equiv_paths=1
+  City 025: jaccard_strict=0.091  jaccard_loose=0.105  path_len=4  equiv_paths=1
+
+=================================================================
+SUMMARY
+=================================================================
+  Structural data issues found: 0 cities
+  Ground truth paths: clean
+  Label uniqueness:   clean
+  Label formats:      clean
+  Endpoint visibility:clean
+
+  Threshold at 0.3: 44.2% correct  (generous)
+  Threshold at 0.5: 12.9% correct  (current)
+  Threshold at 0.7: 5.0% correct  (strict)
+
+  Path length correlation with Jaccard: see quality_path_lengths.png
+  If correlation is strongly negative, low baseline accuracy is
+  partly a scoring artefact of long paths, not model failure.

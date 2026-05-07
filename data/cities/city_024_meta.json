@@ -1,0 +1,984 @@
+{
+    "city_id": 24,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "University": [
+            0,
+            4
+        ],
+        "Aquarium": [
+            4,
+            9
+        ],
+        "Police HQ": [
+            5,
+            0
+        ],
+        "Financial Center": [
+            9,
+            8
+        ],
+        "Convention Center": [
+            5,
+            6
+        ],
+        "Tech Hub": [
+            7,
+            2
+        ],
+        "General Hospital": [
+            0,
+            5
+        ],
+        "Grand Park": [
+            5,
+            4
+        ],
+        "Shopping Mall": [
+            0,
+            3
+        ],
+        "Fire Station": [
+            8,
+            2
+        ]
+    },
+    "start": "Convention Center",
+    "end": "Shopping Mall",
+    "shortest_path_nodes": [
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i44",
+        "i34",
+        "i24",
+        "i14",
+        "i04",
+        "General Hospital",
+        "University",
+        "Shopping Mall"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "General Hospital",
+        "University",
+        "Shopping Mall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i14",
+            "i04",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i14",
+            "i13",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i13",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i13",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i13",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i23",
+            "i13",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i14",
+            "i13",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i13",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i13",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i13",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i23",
+            "i13",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i42",
+            "i32",
+            "i22",
+            "i12",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i14",
+            "i13",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i13",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i13",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i13",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i23",
+            "i13",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i42",
+            "i32",
+            "i22",
+            "i12",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i42",
+            "i32",
+            "i22",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i33",
+            "i32",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i42",
+            "i32",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i42",
+            "i32",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i43",
+            "i42",
+            "i41",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i42",
+            "i41",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i49",
+            "i41",
+            "i31",
+            "i21",
+            "i11",
+            "Shopping Mall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "General Hospital",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "University",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Shopping Mall"
+        ]
+    ],
+    "num_equivalent_paths": 56,
+    "path_length": 8
+}

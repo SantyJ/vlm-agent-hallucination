@@ -1,0 +1,88 @@
+{
+    "city_id": 77,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Grand Park": [
+            8,
+            7
+        ],
+        "National Museum": [
+            9,
+            4
+        ],
+        "Main Station": [
+            2,
+            0
+        ],
+        "Aquarium": [
+            6,
+            0
+        ],
+        "Police HQ": [
+            6,
+            6
+        ],
+        "Financial Center": [
+            6,
+            8
+        ],
+        "Shopping Mall": [
+            3,
+            8
+        ],
+        "Zoo": [
+            2,
+            9
+        ],
+        "Convention Center": [
+            9,
+            1
+        ],
+        "Harbor": [
+            2,
+            2
+        ]
+    },
+    "start": "Main Station",
+    "end": "Harbor",
+    "shortest_path_nodes": [
+        [
+            2,
+            0
+        ],
+        [
+            2,
+            1
+        ],
+        [
+            2,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i21",
+        "Harbor"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Harbor"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i21",
+            "Harbor"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Harbor"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

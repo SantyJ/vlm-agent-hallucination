@@ -1,0 +1,964 @@
+{
+    "city_id": 4,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            3,
+            7
+        ],
+        "Main Station": [
+            5,
+            0
+        ],
+        "Aquarium": [
+            9,
+            3
+        ],
+        "National Museum": [
+            8,
+            4
+        ],
+        "Financial Center": [
+            5,
+            8
+        ],
+        "University": [
+            7,
+            6
+        ],
+        "Zoo": [
+            3,
+            0
+        ],
+        "General Hospital": [
+            9,
+            6
+        ],
+        "Police HQ": [
+            9,
+            8
+        ],
+        "Harbor": [
+            9,
+            7
+        ]
+    },
+    "start": "City Hall",
+    "end": "National Museum",
+    "shortest_path_nodes": [
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            8,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i46",
+        "i55",
+        "i64",
+        "i73",
+        "i82",
+        "i81",
+        "i80",
+        "National Museum"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "National Museum"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i73",
+            "i82",
+            "i81",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i73",
+            "University",
+            "i81",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i63",
+            "University",
+            "i81",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i63",
+            "University",
+            "i81",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i63",
+            "University",
+            "i81",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i63",
+            "University",
+            "i81",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i73",
+            "University",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i63",
+            "University",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i63",
+            "University",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i63",
+            "University",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i63",
+            "University",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i63",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i44",
+            "i53",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i44",
+            "i53",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i35",
+            "i44",
+            "i53",
+            "i62",
+            "i72",
+            "i80",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i73",
+            "University",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i63",
+            "University",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i63",
+            "University",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i63",
+            "University",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i63",
+            "University",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i63",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i63",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i53",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i44",
+            "i53",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i44",
+            "i53",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i35",
+            "i44",
+            "i53",
+            "i62",
+            "i72",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i64",
+            "i63",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i63",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i63",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i63",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i53",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i53",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i53",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i44",
+            "i53",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i44",
+            "i53",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i35",
+            "i44",
+            "i53",
+            "i62",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i55",
+            "i54",
+            "i53",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i54",
+            "i53",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i54",
+            "i53",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i44",
+            "i53",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i44",
+            "i53",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i35",
+            "i44",
+            "i53",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i46",
+            "i45",
+            "i44",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i45",
+            "i44",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i35",
+            "i44",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "i36",
+            "i35",
+            "i34",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "National Museum"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "University",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ],
+        [
+            "City Hall",
+            "National Museum"
+        ]
+    ],
+    "num_equivalent_paths": 56,
+    "path_length": 8
+}

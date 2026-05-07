@@ -1,0 +1,290 @@
+{
+    "city_id": 68,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Police HQ": [
+            7,
+            3
+        ],
+        "General Hospital": [
+            5,
+            4
+        ],
+        "Harbor": [
+            2,
+            8
+        ],
+        "University": [
+            2,
+            0
+        ],
+        "Zoo": [
+            9,
+            0
+        ],
+        "Fire Station": [
+            5,
+            2
+        ],
+        "Shopping Mall": [
+            7,
+            8
+        ],
+        "Convention Center": [
+            2,
+            7
+        ],
+        "City Hall": [
+            8,
+            5
+        ],
+        "Grand Park": [
+            3,
+            1
+        ]
+    },
+    "start": "Zoo",
+    "end": "Harbor",
+    "shortest_path_nodes": [
+        [
+            9,
+            0
+        ],
+        [
+            9,
+            1
+        ],
+        [
+            9,
+            2
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            9,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Zoo",
+        "i82",
+        "i83",
+        "i84",
+        "i85",
+        "i86",
+        "i87",
+        "i79",
+        "i71",
+        "i62",
+        "i52",
+        "i44",
+        "i34",
+        "Convention Center",
+        "Harbor"
+    ],
+    "shortest_path_landmarks": [
+        "Zoo",
+        "Convention Center",
+        "Harbor"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i71",
+            "i62",
+            "i52",
+            "i44",
+            "i34",
+            "Convention Center",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i71",
+            "i62",
+            "i52",
+            "i44",
+            "i34",
+            "i35",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i71",
+            "i62",
+            "i52",
+            "i44",
+            "i45",
+            "i35",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i71",
+            "i62",
+            "i52",
+            "i53",
+            "i45",
+            "i35",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i71",
+            "i62",
+            "i63",
+            "i53",
+            "i45",
+            "i35",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i71",
+            "Shopping Mall",
+            "i63",
+            "i53",
+            "i45",
+            "i35",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i83",
+            "i84",
+            "i85",
+            "i86",
+            "i87",
+            "i79",
+            "i80",
+            "Shopping Mall",
+            "i63",
+            "i53",
+            "i45",
+            "i35",
+            "Harbor"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Zoo",
+            "Convention Center",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "Shopping Mall",
+            "Harbor"
+        ],
+        [
+            "Zoo",
+            "Shopping Mall",
+            "Harbor"
+        ]
+    ],
+    "num_equivalent_paths": 7,
+    "path_length": 14
+}

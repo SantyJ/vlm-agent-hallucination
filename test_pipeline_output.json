@@ -1,0 +1,52 @@
+{
+  "city_id": 0,
+  "condition": "baseline",
+  "arch_type": "A",
+  "quadrant_paths": {
+    "NW": "data/cities/city_141_NW.png",
+    "NE": "data/cities/city_141_NW.png",
+    "SW": "data/cities/city_141_NW.png",
+    "SE": "data/cities/city_141_NW.png"
+  },
+  "subagent_reports": [
+    {
+      "sector": "NW",
+      "landmarks_seen": [],
+      "roads_seen": [],
+      "confidence": 0,
+      "parse_error": true
+    },
+    {
+      "sector": "NE",
+      "landmarks_seen": [],
+      "roads_seen": [],
+      "confidence": 0,
+      "parse_error": true
+    },
+    {
+      "sector": "SW",
+      "landmarks_seen": [],
+      "roads_seen": [],
+      "confidence": 0,
+      "parse_error": true
+    },
+    {
+      "sector": "SE",
+      "landmarks_seen": [],
+      "roads_seen": [],
+      "confidence": 0,
+      "parse_error": true
+    }
+  ],
+  "root_decision": {
+    "recommended_path": [],
+    "reasoning": "",
+    "agents_trusted": [],
+    "confidence": 0,
+    "contradictions_found": [],
+    "thinking_trace": "",
+    "raw_text": "",
+    "parse_error": true
+  },
+  "ground_truth": {}
+}

@@ -1,0 +1,133 @@
+{
+    "city_id": 92,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 8,
+    "landmarks": {
+        "Financial Center": [
+            0.9252827883106504,
+            2.858801782056862
+        ],
+        "Aquarium": [
+            5.8690392350636875,
+            2.8255064549886773
+        ],
+        "Main Station": [
+            7.164766725403096,
+            -0.13623163901828814
+        ],
+        "University": [
+            4.817927921404518,
+            3.741747048229858
+        ],
+        "Zoo": [
+            7.746325143748352,
+            1.8275341666493137
+        ],
+        "Harbor": [
+            3.058952374025099,
+            5.712887254486363
+        ],
+        "Police HQ": [
+            4.991886768898656,
+            7.928199167163236
+        ],
+        "Shopping Mall": [
+            8.251825513233067,
+            2.737660431101861
+        ],
+        "Grand Park": [
+            5.283682732323999,
+            0.09566217257600707
+        ],
+        "Stadium": [
+            0.9123664530196464,
+            1.1845861688362425
+        ]
+    },
+    "start": "Aquarium",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            5.8690392350636875,
+            2.8255064549886773
+        ],
+        [
+            6.095102358701776,
+            1.8251472030954186
+        ],
+        [
+            5.845290799843159,
+            0.7805015915019335
+        ],
+        [
+            6.017853666111998,
+            0.2853037256256287
+        ],
+        [
+            7.164766725403096,
+            -0.13623163901828814
+        ]
+    ],
+    "shortest_path_names": [
+        "Aquarium",
+        "i52",
+        "i51",
+        "i50",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "Aquarium",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Aquarium",
+            "i52",
+            "i51",
+            "i50",
+            "Main Station"
+        ],
+        [
+            "Aquarium",
+            "i52",
+            "i51",
+            "i59",
+            "Main Station"
+        ],
+        [
+            "Aquarium",
+            "i52",
+            "i60",
+            "i59",
+            "Main Station"
+        ],
+        [
+            "Aquarium",
+            "i61",
+            "i60",
+            "i59",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Aquarium",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 4
+}

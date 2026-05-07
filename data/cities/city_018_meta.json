@@ -1,0 +1,179 @@
+{
+    "city_id": 18,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            5,
+            5
+        ],
+        "University": [
+            6,
+            9
+        ],
+        "Aquarium": [
+            9,
+            6
+        ],
+        "Grand Park": [
+            3,
+            7
+        ],
+        "Financial Center": [
+            6,
+            4
+        ],
+        "Airport": [
+            0,
+            1
+        ],
+        "Tech Hub": [
+            8,
+            4
+        ],
+        "Main Station": [
+            9,
+            7
+        ],
+        "Police HQ": [
+            4,
+            7
+        ],
+        "Zoo": [
+            8,
+            0
+        ]
+    },
+    "start": "Police HQ",
+    "end": "Aquarium",
+    "shortest_path_nodes": [
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            9,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "Police HQ",
+        "i54",
+        "i63",
+        "i72",
+        "i80",
+        "Main Station",
+        "Aquarium"
+    ],
+    "shortest_path_landmarks": [
+        "Police HQ",
+        "Main Station",
+        "Aquarium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i72",
+            "i80",
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i72",
+            "i80",
+            "i79",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i72",
+            "i71",
+            "i79",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i63",
+            "i62",
+            "i71",
+            "i79",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "i54",
+            "i53",
+            "i62",
+            "i71",
+            "i79",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "i45",
+            "i53",
+            "i62",
+            "i71",
+            "i79",
+            "Aquarium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Police HQ",
+            "Main Station",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "Aquarium"
+        ],
+        [
+            "Police HQ",
+            "Aquarium"
+        ]
+    ],
+    "num_equivalent_paths": 6,
+    "path_length": 6
+}

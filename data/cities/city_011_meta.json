@@ -1,0 +1,204 @@
+{
+    "city_id": 11,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Fire Station": [
+            0,
+            3
+        ],
+        "City Hall": [
+            2,
+            4
+        ],
+        "University": [
+            9,
+            6
+        ],
+        "Shopping Mall": [
+            1,
+            3
+        ],
+        "Airport": [
+            3,
+            8
+        ],
+        "Police HQ": [
+            7,
+            2
+        ],
+        "Tech Hub": [
+            5,
+            5
+        ],
+        "Central Library": [
+            8,
+            8
+        ],
+        "Zoo": [
+            4,
+            1
+        ],
+        "Harbor": [
+            1,
+            2
+        ]
+    },
+    "start": "Police HQ",
+    "end": "Shopping Mall",
+    "shortest_path_nodes": [
+        [
+            7,
+            2
+        ],
+        [
+            6,
+            2
+        ],
+        [
+            5,
+            2
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            3,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Police HQ",
+        "i56",
+        "i47",
+        "i37",
+        "i29",
+        "i20",
+        "Harbor",
+        "Shopping Mall"
+    ],
+    "shortest_path_landmarks": [
+        "Police HQ",
+        "Harbor",
+        "Shopping Mall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Police HQ",
+            "i56",
+            "i47",
+            "i37",
+            "i29",
+            "i20",
+            "Harbor",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "i56",
+            "i47",
+            "i37",
+            "i29",
+            "i20",
+            "i21",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "i56",
+            "i47",
+            "i37",
+            "i29",
+            "i30",
+            "i21",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "i56",
+            "i47",
+            "i37",
+            "i38",
+            "i30",
+            "i21",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "i56",
+            "i47",
+            "i48",
+            "i38",
+            "i30",
+            "i21",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "i56",
+            "i57",
+            "i48",
+            "i38",
+            "i30",
+            "i21",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "i66",
+            "i57",
+            "i48",
+            "i38",
+            "i30",
+            "i21",
+            "Shopping Mall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Police HQ",
+            "Harbor",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "Shopping Mall"
+        ],
+        [
+            "Police HQ",
+            "Shopping Mall"
+        ]
+    ],
+    "num_equivalent_paths": 7,
+    "path_length": 7
+}

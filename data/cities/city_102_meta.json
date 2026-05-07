@@ -1,0 +1,309 @@
+{
+    "city_id": 102,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 2,
+    "landmarks": {
+        "Fire Station": [
+            4.731632068195056,
+            2.756264973742869
+        ],
+        "Airport": [
+            3.2733820851044784,
+            3.2775724122099272
+        ],
+        "Harbor": [
+            4.239947173826419,
+            1.8179529390127263
+        ],
+        "General Hospital": [
+            5.977915108943761,
+            5.113428300771378
+        ],
+        "Grand Park": [
+            8.997897478811852,
+            3.9564003392095484
+        ],
+        "Central Library": [
+            8.06014559338138,
+            8.112022557823583
+        ],
+        "Convention Center": [
+            2.188261983916318,
+            4.171038614704413
+        ],
+        "Aquarium": [
+            0.7974346514670377,
+            3.213729148462684
+        ],
+        "National Museum": [
+            9.118641682593342,
+            5.899354179110995
+        ],
+        "Financial Center": [
+            0.9960069266807916,
+            7.898924809168383
+        ]
+    },
+    "start": "National Museum",
+    "end": "Fire Station",
+    "shortest_path_nodes": [
+        [
+            9.118641682593342,
+            5.899354179110995
+        ],
+        [
+            8.151119392785555,
+            6.202492120178549
+        ],
+        [
+            7.192994258486272,
+            6.1138831248429995
+        ],
+        [
+            6.0284561582738805,
+            5.913848358912398
+        ],
+        [
+            5.977915108943761,
+            5.113428300771378
+        ],
+        [
+            5.747251614251499,
+            3.855374507983399
+        ],
+        [
+            4.97235014317415,
+            4.166692413200131
+        ],
+        [
+            4.731632068195056,
+            2.756264973742869
+        ]
+    ],
+    "shortest_path_names": [
+        "National Museum",
+        "i79",
+        "i69",
+        "i59",
+        "General Hospital",
+        "i58",
+        "i48",
+        "Fire Station"
+    ],
+    "shortest_path_landmarks": [
+        "National Museum",
+        "General Hospital",
+        "Fire Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "National Museum",
+            "i79",
+            "i69",
+            "i59",
+            "General Hospital",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i79",
+            "i69",
+            "i68",
+            "General Hospital",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i79",
+            "i78",
+            "i68",
+            "General Hospital",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "i78",
+            "i68",
+            "General Hospital",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i79",
+            "i69",
+            "i68",
+            "i67",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i79",
+            "i78",
+            "i68",
+            "i67",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "i78",
+            "i68",
+            "i67",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "Grand Park",
+            "i77",
+            "i67",
+            "i58",
+            "i48",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i79",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i57",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i79",
+            "i78",
+            "i68",
+            "i67",
+            "i66",
+            "i57",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "i78",
+            "i68",
+            "i67",
+            "i66",
+            "i57",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "Grand Park",
+            "i77",
+            "i67",
+            "i66",
+            "i57",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "Grand Park",
+            "i77",
+            "i76",
+            "i66",
+            "i57",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "i85",
+            "Grand Park",
+            "i84",
+            "i76",
+            "i66",
+            "i57",
+            "Fire Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "National Museum",
+            "General Hospital",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "General Hospital",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "General Hospital",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "General Hospital",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Grand Park",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Grand Park",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Grand Park",
+            "Fire Station"
+        ],
+        [
+            "National Museum",
+            "Grand Park",
+            "Fire Station"
+        ]
+    ],
+    "num_equivalent_paths": 14,
+    "path_length": 7
+}

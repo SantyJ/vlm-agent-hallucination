@@ -1,0 +1,177 @@
+{
+    "city_id": 53,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            3,
+            2
+        ],
+        "Stadium": [
+            1,
+            6
+        ],
+        "Financial Center": [
+            0,
+            0
+        ],
+        "Aquarium": [
+            8,
+            4
+        ],
+        "Main Station": [
+            5,
+            5
+        ],
+        "University": [
+            7,
+            7
+        ],
+        "Central Library": [
+            8,
+            5
+        ],
+        "General Hospital": [
+            9,
+            6
+        ],
+        "Convention Center": [
+            2,
+            0
+        ],
+        "Fire Station": [
+            6,
+            0
+        ]
+    },
+    "start": "Main Station",
+    "end": "Fire Station",
+    "shortest_path_nodes": [
+        [
+            5,
+            5
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            6,
+            3
+        ],
+        [
+            6,
+            2
+        ],
+        [
+            6,
+            1
+        ],
+        [
+            6,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i60",
+        "i59",
+        "i58",
+        "i57",
+        "i56",
+        "Fire Station"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Fire Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "i51",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "i51",
+            "i50",
+            "i58",
+            "i57",
+            "i56",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "i51",
+            "i50",
+            "i49",
+            "i57",
+            "i56",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i56",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "Fire Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "Fire Station"
+        ],
+        [
+            "Main Station",
+            "Fire Station"
+        ]
+    ],
+    "num_equivalent_paths": 6,
+    "path_length": 6
+}

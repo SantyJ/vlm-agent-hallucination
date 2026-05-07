@@ -1,0 +1,323 @@
+{
+    "city_id": 97,
+    "complexity_level": 3,
+    "water_type": "river",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "General Hospital": [
+            6.270480405980306,
+            0.8001277867807794
+        ],
+        "Aquarium": [
+            7.962539654996802,
+            6.070062929678215
+        ],
+        "National Museum": [
+            8.940982579874538,
+            2.1138172960513852
+        ],
+        "Airport": [
+            2.938263890653795,
+            0.22079850371590432
+        ],
+        "Central Library": [
+            8.907717128423702,
+            6.264506406371352
+        ],
+        "City Hall": [
+            5.141737389174474,
+            8.84445211569184
+        ],
+        "Main Station": [
+            0.20976375014399945,
+            6.195472072230293
+        ],
+        "Police HQ": [
+            -0.2594355726912759,
+            8.2479665793049
+        ],
+        "University": [
+            2.8527254447091286,
+            1.0721007233109658
+        ],
+        "Harbor": [
+            6.99888920535614,
+            5.232407420181554
+        ]
+    },
+    "start": "Aquarium",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            7.962539654996802,
+            6.070062929678215
+        ],
+        [
+            7.225192112952881,
+            6.03131436898893
+        ],
+        [
+            6.99888920535614,
+            5.232407420181554
+        ],
+        [
+            5.80568859503477,
+            5.176247827727777
+        ],
+        [
+            5.892007108897561,
+            4.2128361864922725
+        ],
+        [
+            6.09534739628805,
+            3.034217752388422
+        ],
+        [
+            6.247538719913433,
+            1.7090372252509258
+        ],
+        [
+            6.270480405980306,
+            0.8001277867807794
+        ]
+    ],
+    "shortest_path_names": [
+        "Aquarium",
+        "i68",
+        "Harbor",
+        "i58",
+        "i57",
+        "i56",
+        "i55",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Aquarium",
+        "Harbor",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Aquarium",
+            "i68",
+            "Harbor",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "Harbor",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i68",
+            "Harbor",
+            "i67",
+            "i66",
+            "i56",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "Harbor",
+            "i67",
+            "i66",
+            "i56",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i67",
+            "i66",
+            "i56",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i75",
+            "i66",
+            "i56",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i68",
+            "Harbor",
+            "i67",
+            "i66",
+            "i65",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "Harbor",
+            "i67",
+            "i66",
+            "i65",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i67",
+            "i66",
+            "i65",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i75",
+            "i66",
+            "i65",
+            "i55",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i68",
+            "Harbor",
+            "i67",
+            "i66",
+            "i65",
+            "i64",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "Harbor",
+            "i67",
+            "i66",
+            "i65",
+            "i64",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i67",
+            "i66",
+            "i65",
+            "i64",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i75",
+            "i66",
+            "i65",
+            "i64",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "i64",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "Harbor",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ],
+        [
+            "Aquarium",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 15,
+    "path_length": 7
+}

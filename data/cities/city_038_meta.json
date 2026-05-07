@@ -1,0 +1,106 @@
+{
+    "city_id": 38,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "National Museum": [
+            5,
+            5
+        ],
+        "Aquarium": [
+            0,
+            9
+        ],
+        "Main Station": [
+            9,
+            3
+        ],
+        "City Hall": [
+            7,
+            2
+        ],
+        "Shopping Mall": [
+            2,
+            2
+        ],
+        "Grand Park": [
+            0,
+            6
+        ],
+        "Harbor": [
+            8,
+            1
+        ],
+        "Financial Center": [
+            4,
+            8
+        ],
+        "University": [
+            6,
+            9
+        ],
+        "Stadium": [
+            0,
+            5
+        ]
+    },
+    "start": "Stadium",
+    "end": "National Museum",
+    "shortest_path_nodes": [
+        [
+            0,
+            5
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            5
+        ]
+    ],
+    "shortest_path_names": [
+        "Stadium",
+        "i13",
+        "i22",
+        "i32",
+        "i42",
+        "National Museum"
+    ],
+    "shortest_path_landmarks": [
+        "Stadium",
+        "National Museum"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Stadium",
+            "i13",
+            "i22",
+            "i32",
+            "i42",
+            "National Museum"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Stadium",
+            "National Museum"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 5
+}

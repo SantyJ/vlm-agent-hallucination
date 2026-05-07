@@ -1,0 +1,422 @@
+{
+    "city_id": 73,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Tech Hub": [
+            1,
+            2
+        ],
+        "Airport": [
+            9,
+            7
+        ],
+        "Main Station": [
+            3,
+            4
+        ],
+        "Financial Center": [
+            1,
+            6
+        ],
+        "General Hospital": [
+            8,
+            9
+        ],
+        "Fire Station": [
+            5,
+            8
+        ],
+        "Police HQ": [
+            3,
+            5
+        ],
+        "Zoo": [
+            3,
+            6
+        ],
+        "National Museum": [
+            8,
+            4
+        ],
+        "Harbor": [
+            4,
+            6
+        ]
+    },
+    "start": "National Museum",
+    "end": "Zoo",
+    "shortest_path_nodes": [
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "National Museum",
+        "i68",
+        "i58",
+        "i49",
+        "i40",
+        "Main Station",
+        "Police HQ",
+        "Zoo"
+    ],
+    "shortest_path_landmarks": [
+        "National Museum",
+        "Main Station",
+        "Police HQ",
+        "Zoo"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i49",
+            "i40",
+            "Main Station",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i49",
+            "i40",
+            "i41",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i49",
+            "i50",
+            "i41",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i59",
+            "i50",
+            "i41",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i69",
+            "i59",
+            "i50",
+            "i41",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i78",
+            "i69",
+            "i59",
+            "i50",
+            "i41",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i49",
+            "i40",
+            "i41",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i49",
+            "i50",
+            "i41",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i59",
+            "i50",
+            "i41",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i69",
+            "i59",
+            "i50",
+            "i41",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i78",
+            "i69",
+            "i59",
+            "i50",
+            "i41",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i49",
+            "i50",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i59",
+            "i50",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i69",
+            "i59",
+            "i50",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i78",
+            "i69",
+            "i59",
+            "i50",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i58",
+            "i59",
+            "i60",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i69",
+            "i59",
+            "i60",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i78",
+            "i69",
+            "i59",
+            "i60",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i68",
+            "i69",
+            "i70",
+            "i60",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i78",
+            "i69",
+            "i70",
+            "i60",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "i78",
+            "i79",
+            "i70",
+            "i60",
+            "i51",
+            "Harbor",
+            "Zoo"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "National Museum",
+            "Main Station",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Police HQ",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ],
+        [
+            "National Museum",
+            "Harbor",
+            "Zoo"
+        ]
+    ],
+    "num_equivalent_paths": 21,
+    "path_length": 7
+}

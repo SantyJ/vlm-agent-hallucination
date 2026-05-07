@@ -1,0 +1,162 @@
+{
+    "city_id": 99,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "Main Station": [
+            3.7135785449322816,
+            7.776560983677999
+        ],
+        "Shopping Mall": [
+            4.27516735353663,
+            4.965525363581914
+        ],
+        "Financial Center": [
+            4.726411089333329,
+            8.252097298341647
+        ],
+        "City Hall": [
+            2.1127709198027085,
+            4.985495797704399
+        ],
+        "General Hospital": [
+            6.79001489641817,
+            5.108169740142072
+        ],
+        "Airport": [
+            4.7503063419067235,
+            1.2123272003232826
+        ],
+        "Stadium": [
+            2.8796384981635956,
+            6.243696043397805
+        ],
+        "University": [
+            2.093847556562607,
+            1.8952231362100784
+        ],
+        "Harbor": [
+            3.974702378208497,
+            1.2396803272974395
+        ],
+        "Zoo": [
+            3.9471321147586447,
+            -0.23043252213991416
+        ]
+    },
+    "start": "City Hall",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            2.1127709198027085,
+            4.985495797704399
+        ],
+        [
+            2.293490574165667,
+            3.93580885957043
+        ],
+        [
+            2.899964297773597,
+            4.261538825033207
+        ],
+        [
+            3.9048854438598783,
+            3.949717289278292
+        ],
+        [
+            5.174927977821721,
+            3.8941764990966345
+        ],
+        [
+            5.7509702057442755,
+            4.231204836740705
+        ],
+        [
+            6.712241444788666,
+            4.2207610929383454
+        ],
+        [
+            6.79001489641817,
+            5.108169740142072
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i22",
+        "i31",
+        "i38",
+        "i45",
+        "i54",
+        "i63",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i22",
+            "i31",
+            "i38",
+            "i45",
+            "i54",
+            "i63",
+            "General Hospital"
+        ],
+        [
+            "City Hall",
+            "i32",
+            "i31",
+            "i38",
+            "i45",
+            "i54",
+            "i63",
+            "General Hospital"
+        ],
+        [
+            "City Hall",
+            "i23",
+            "Stadium",
+            "i39",
+            "i47",
+            "i55",
+            "i64",
+            "General Hospital"
+        ],
+        [
+            "City Hall",
+            "i32",
+            "Stadium",
+            "i39",
+            "i47",
+            "i55",
+            "i64",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "General Hospital"
+        ],
+        [
+            "City Hall",
+            "General Hospital"
+        ],
+        [
+            "City Hall",
+            "Stadium",
+            "General Hospital"
+        ],
+        [
+            "City Hall",
+            "Stadium",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 7
+}

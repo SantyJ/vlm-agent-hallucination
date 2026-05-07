@@ -1,0 +1,126 @@
+{
+    "city_id": 30,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Tech Hub": [
+            0,
+            2
+        ],
+        "Central Library": [
+            4,
+            1
+        ],
+        "Financial Center": [
+            1,
+            0
+        ],
+        "National Museum": [
+            0,
+            6
+        ],
+        "Fire Station": [
+            9,
+            9
+        ],
+        "Main Station": [
+            3,
+            2
+        ],
+        "City Hall": [
+            8,
+            2
+        ],
+        "Stadium": [
+            6,
+            7
+        ],
+        "Airport": [
+            3,
+            5
+        ],
+        "Grand Park": [
+            0,
+            3
+        ]
+    },
+    "start": "City Hall",
+    "end": "Tech Hub",
+    "shortest_path_nodes": [
+        [
+            8,
+            2
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            6,
+            2
+        ],
+        [
+            5,
+            2
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            3,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            1,
+            2
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i65",
+        "i56",
+        "i46",
+        "i36",
+        "Main Station",
+        "i19",
+        "i09",
+        "Tech Hub"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "Main Station",
+        "Tech Hub"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i65",
+            "i56",
+            "i46",
+            "i36",
+            "Main Station",
+            "i19",
+            "i09",
+            "Tech Hub"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "Main Station",
+            "Tech Hub"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 8
+}

@@ -1,0 +1,156 @@
+{
+    "city_id": 74,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Main Station": [
+            8,
+            4
+        ],
+        "Harbor": [
+            0,
+            5
+        ],
+        "Central Library": [
+            0,
+            1
+        ],
+        "Aquarium": [
+            1,
+            6
+        ],
+        "City Hall": [
+            2,
+            8
+        ],
+        "Stadium": [
+            4,
+            2
+        ],
+        "Financial Center": [
+            4,
+            5
+        ],
+        "National Museum": [
+            3,
+            5
+        ],
+        "Police HQ": [
+            5,
+            6
+        ],
+        "Grand Park": [
+            8,
+            8
+        ]
+    },
+    "start": "Stadium",
+    "end": "Police HQ",
+    "shortest_path_nodes": [
+        [
+            4,
+            2
+        ],
+        [
+            5,
+            2
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "Stadium",
+        "i46",
+        "i47",
+        "i48",
+        "i49",
+        "Police HQ"
+    ],
+    "shortest_path_landmarks": [
+        "Stadium",
+        "Police HQ"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Stadium",
+            "i46",
+            "i47",
+            "i48",
+            "i49",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "i38",
+            "i47",
+            "i48",
+            "i49",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "i38",
+            "i39",
+            "i48",
+            "i49",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "i38",
+            "i39",
+            "Financial Center",
+            "i49",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "i38",
+            "i39",
+            "Financial Center",
+            "i40",
+            "Police HQ"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Stadium",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "Financial Center",
+            "Police HQ"
+        ],
+        [
+            "Stadium",
+            "Financial Center",
+            "Police HQ"
+        ]
+    ],
+    "num_equivalent_paths": 5,
+    "path_length": 5
+}

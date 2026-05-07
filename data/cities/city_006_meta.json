@@ -1,0 +1,102 @@
+{
+    "city_id": 6,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Stadium": [
+            7,
+            3
+        ],
+        "University": [
+            2,
+            4
+        ],
+        "Police HQ": [
+            5,
+            1
+        ],
+        "Airport": [
+            4,
+            5
+        ],
+        "Harbor": [
+            6,
+            1
+        ],
+        "Zoo": [
+            4,
+            4
+        ],
+        "Shopping Mall": [
+            0,
+            4
+        ],
+        "Financial Center": [
+            4,
+            7
+        ],
+        "Aquarium": [
+            8,
+            8
+        ],
+        "City Hall": [
+            2,
+            9
+        ]
+    },
+    "start": "Shopping Mall",
+    "end": "Zoo",
+    "shortest_path_nodes": [
+        [
+            0,
+            4
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "Shopping Mall",
+        "i14",
+        "University",
+        "i32",
+        "Zoo"
+    ],
+    "shortest_path_landmarks": [
+        "Shopping Mall",
+        "University",
+        "Zoo"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Shopping Mall",
+            "i14",
+            "University",
+            "i32",
+            "Zoo"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Shopping Mall",
+            "University",
+            "Zoo"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 4
+}

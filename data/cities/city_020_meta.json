@@ -1,0 +1,82 @@
+{
+    "city_id": 20,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Main Station": [
+            6,
+            2
+        ],
+        "Central Library": [
+            2,
+            4
+        ],
+        "Financial Center": [
+            8,
+            0
+        ],
+        "Fire Station": [
+            4,
+            1
+        ],
+        "University": [
+            8,
+            7
+        ],
+        "Shopping Mall": [
+            5,
+            4
+        ],
+        "Stadium": [
+            1,
+            5
+        ],
+        "Grand Park": [
+            9,
+            6
+        ],
+        "City Hall": [
+            4,
+            0
+        ],
+        "Aquarium": [
+            4,
+            6
+        ]
+    },
+    "start": "City Hall",
+    "end": "Fire Station",
+    "shortest_path_nodes": [
+        [
+            4,
+            0
+        ],
+        [
+            4,
+            1
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "Fire Station"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "Fire Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "Fire Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "Fire Station"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 1
+}

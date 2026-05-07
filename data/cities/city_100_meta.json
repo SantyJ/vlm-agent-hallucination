@@ -1,0 +1,1765 @@
+{
+    "city_id": 100,
+    "complexity_level": 3,
+    "water_type": "river",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Fire Station": [
+            1.0376368764172654,
+            7.911981048515379
+        ],
+        "General Hospital": [
+            2.945750875542469,
+            2.8315567295449675
+        ],
+        "Airport": [
+            7.256579889622764,
+            2.0189322767039677
+        ],
+        "Central Library": [
+            -0.01923992281786885,
+            0.2143075831821573
+        ],
+        "Grand Park": [
+            1.0371475986723073,
+            1.0873171471927665
+        ],
+        "Zoo": [
+            8.063267452816405,
+            2.2163507162439413
+        ],
+        "Main Station": [
+            7.086663349632654,
+            4.96432666074206
+        ],
+        "Stadium": [
+            2.727448125961218,
+            1.1829336186135726
+        ],
+        "Harbor": [
+            7.869891901088203,
+            5.880547258147773
+        ],
+        "Shopping Mall": [
+            5.926885749208688,
+            7.1660271134878455
+        ]
+    },
+    "start": "Grand Park",
+    "end": "Harbor",
+    "shortest_path_nodes": [
+        [
+            1.0371475986723073,
+            1.0873171471927665
+        ],
+        [
+            1.2544392876443229,
+            2.2800300515810767
+        ],
+        [
+            1.9842037388536793,
+            2.0878309203997896
+        ],
+        [
+            2.7584728469304474,
+            2.1180414235514755
+        ],
+        [
+            2.945750875542469,
+            2.8315567295449675
+        ],
+        [
+            3.0734513504964065,
+            3.820673668441227
+        ],
+        [
+            3.8746266686476516,
+            3.99341435848486
+        ],
+        [
+            5.271694076866216,
+            4.0156518816352325
+        ],
+        [
+            5.735771280586481,
+            4.219729856540738
+        ],
+        [
+            6.273229889250951,
+            5.193889247196689
+        ],
+        [
+            7.086663349632654,
+            4.96432666074206
+        ],
+        [
+            6.801039269944389,
+            6.2099898329202095
+        ],
+        [
+            7.869891901088203,
+            5.880547258147773
+        ]
+    ],
+    "shortest_path_names": [
+        "Grand Park",
+        "i11",
+        "i20",
+        "i28",
+        "General Hospital",
+        "i29",
+        "i39",
+        "i48",
+        "i58",
+        "i59",
+        "Main Station",
+        "i66",
+        "Harbor"
+    ],
+    "shortest_path_landmarks": [
+        "Grand Park",
+        "General Hospital",
+        "Main Station",
+        "Harbor"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i29",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i29",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "General Hospital",
+            "i29",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i66",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i29",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i29",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "General Hospital",
+            "i29",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i38",
+            "i39",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "General Hospital",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i38",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i47",
+            "i48",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Main Station",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i65",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "i57",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "Airport",
+            "i64",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i11",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "Zoo",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "i20",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "Zoo",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i28",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "Zoo",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i37",
+            "i46",
+            "i56",
+            "Airport",
+            "Zoo",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "i19",
+            "Stadium",
+            "i36",
+            "i45",
+            "i46",
+            "i56",
+            "Airport",
+            "Zoo",
+            "i72",
+            "i73",
+            "i74",
+            "Harbor"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "General Hospital",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Main Station",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Airport",
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Airport",
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Zoo",
+            "Harbor"
+        ],
+        [
+            "Grand Park",
+            "Stadium",
+            "Airport",
+            "Zoo",
+            "Harbor"
+        ]
+    ],
+    "num_equivalent_paths": 79,
+    "path_length": 12
+}

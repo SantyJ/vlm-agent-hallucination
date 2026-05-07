@@ -1,0 +1,177 @@
+{
+    "city_id": 112,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Tech Hub": [
+            0.7656230035180845,
+            0.05202486112699789
+        ],
+        "Convention Center": [
+            5.984958054448916,
+            7.842083160817216
+        ],
+        "City Hall": [
+            8.118578478649145,
+            1.9126422541790244
+        ],
+        "Zoo": [
+            -0.18602304897255492,
+            1.1403881017757187
+        ],
+        "Harbor": [
+            2.814295283779087,
+            8.814696948501512
+        ],
+        "Shopping Mall": [
+            3.163742110072457,
+            4.772359971100216
+        ],
+        "Police HQ": [
+            1.0930636818464774,
+            1.1607829187617318
+        ],
+        "University": [
+            1.299121499231729,
+            2.891167774455236
+        ],
+        "Main Station": [
+            7.7751556021499795,
+            4.727921434816903
+        ],
+        "National Museum": [
+            7.8665596019386275,
+            2.8728081673181123
+        ]
+    },
+    "start": "Convention Center",
+    "end": "Shopping Mall",
+    "shortest_path_nodes": [
+        [
+            5.984958054448916,
+            7.842083160817216
+        ],
+        [
+            6.064139494474776,
+            7.226740692852074
+        ],
+        [
+            4.771661483310334,
+            6.81890258496319
+        ],
+        [
+            3.9173417499212957,
+            6.981086433377472
+        ],
+        [
+            3.1212087363806136,
+            7.289776329044175
+        ],
+        [
+            2.701682483358423,
+            6.277327624934987
+        ],
+        [
+            3.163742110072457,
+            4.772359971100216
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i61",
+        "i51",
+        "i41",
+        "i32",
+        "i31",
+        "Shopping Mall"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "Shopping Mall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i61",
+            "i51",
+            "i41",
+            "i32",
+            "i31",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i61",
+            "i51",
+            "i41",
+            "i40",
+            "i31",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i61",
+            "i51",
+            "i50",
+            "i40",
+            "i31",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i61",
+            "i51",
+            "i41",
+            "i40",
+            "i39",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i61",
+            "i51",
+            "i50",
+            "i40",
+            "i39",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "i61",
+            "i51",
+            "i50",
+            "i49",
+            "i39",
+            "Shopping Mall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ],
+        [
+            "Convention Center",
+            "Shopping Mall"
+        ]
+    ],
+    "num_equivalent_paths": 6,
+    "path_length": 6
+}

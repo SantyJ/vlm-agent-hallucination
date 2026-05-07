@@ -1,0 +1,156 @@
+{
+    "city_id": 5,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "General Hospital": [
+            3,
+            7
+        ],
+        "Aquarium": [
+            4,
+            8
+        ],
+        "Shopping Mall": [
+            8,
+            7
+        ],
+        "National Museum": [
+            7,
+            5
+        ],
+        "Main Station": [
+            4,
+            5
+        ],
+        "University": [
+            3,
+            5
+        ],
+        "Airport": [
+            4,
+            7
+        ],
+        "Tech Hub": [
+            9,
+            0
+        ],
+        "Police HQ": [
+            3,
+            8
+        ],
+        "Fire Station": [
+            5,
+            1
+        ]
+    },
+    "start": "Shopping Mall",
+    "end": "Aquarium",
+    "shortest_path_nodes": [
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Shopping Mall",
+        "i70",
+        "i61",
+        "i51",
+        "Airport",
+        "Aquarium"
+    ],
+    "shortest_path_landmarks": [
+        "Shopping Mall",
+        "Airport",
+        "Aquarium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Shopping Mall",
+            "i70",
+            "i61",
+            "i51",
+            "Airport",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "i70",
+            "i61",
+            "i51",
+            "i52",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "i70",
+            "i61",
+            "i62",
+            "i52",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "i70",
+            "i71",
+            "i62",
+            "i52",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "i80",
+            "i71",
+            "i62",
+            "i52",
+            "Aquarium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Shopping Mall",
+            "Airport",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "Aquarium"
+        ],
+        [
+            "Shopping Mall",
+            "Aquarium"
+        ]
+    ],
+    "num_equivalent_paths": 5,
+    "path_length": 5
+}

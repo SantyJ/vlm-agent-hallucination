@@ -1,0 +1,97 @@
+{
+    "city_id": 3,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "General Hospital": [
+            1,
+            0
+        ],
+        "City Hall": [
+            3,
+            3
+        ],
+        "Main Station": [
+            5,
+            4
+        ],
+        "Harbor": [
+            1,
+            1
+        ],
+        "Zoo": [
+            9,
+            3
+        ],
+        "Tech Hub": [
+            0,
+            2
+        ],
+        "Central Library": [
+            0,
+            9
+        ],
+        "Fire Station": [
+            5,
+            5
+        ],
+        "University": [
+            8,
+            7
+        ],
+        "Stadium": [
+            9,
+            9
+        ]
+    },
+    "start": "Harbor",
+    "end": "Tech Hub",
+    "shortest_path_nodes": [
+        [
+            1,
+            1
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "Harbor",
+        "i02",
+        "Tech Hub"
+    ],
+    "shortest_path_landmarks": [
+        "Harbor",
+        "Tech Hub"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Harbor",
+            "i02",
+            "Tech Hub"
+        ],
+        [
+            "Harbor",
+            "i09",
+            "Tech Hub"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Harbor",
+            "Tech Hub"
+        ],
+        [
+            "Harbor",
+            "Tech Hub"
+        ]
+    ],
+    "num_equivalent_paths": 2,
+    "path_length": 2
+}

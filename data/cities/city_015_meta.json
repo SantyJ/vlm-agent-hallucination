@@ -1,0 +1,82 @@
+{
+    "city_id": 15,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Central Library": [
+            8,
+            4
+        ],
+        "Tech Hub": [
+            5,
+            7
+        ],
+        "Financial Center": [
+            4,
+            5
+        ],
+        "Zoo": [
+            9,
+            7
+        ],
+        "Fire Station": [
+            4,
+            9
+        ],
+        "Aquarium": [
+            3,
+            9
+        ],
+        "Shopping Mall": [
+            3,
+            5
+        ],
+        "City Hall": [
+            1,
+            8
+        ],
+        "Stadium": [
+            2,
+            9
+        ],
+        "Airport": [
+            6,
+            7
+        ]
+    },
+    "start": "Shopping Mall",
+    "end": "Financial Center",
+    "shortest_path_nodes": [
+        [
+            3,
+            5
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "shortest_path_names": [
+        "Shopping Mall",
+        "Financial Center"
+    ],
+    "shortest_path_landmarks": [
+        "Shopping Mall",
+        "Financial Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Shopping Mall",
+            "Financial Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Shopping Mall",
+            "Financial Center"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 1
+}

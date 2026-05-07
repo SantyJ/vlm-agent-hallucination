@@ -1,0 +1,122 @@
+{
+    "city_id": 115,
+    "complexity_level": 3,
+    "water_type": "river",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "Tech Hub": [
+            4.961156426630683,
+            9.26717104057731
+        ],
+        "Financial Center": [
+            7.936033483422601,
+            0.8310482346419299
+        ],
+        "Central Library": [
+            2.919471625974406,
+            7.224968349429053
+        ],
+        "Stadium": [
+            3.7647917284018706,
+            2.7768842457511265
+        ],
+        "Aquarium": [
+            0.9289026441057195,
+            9.173878009608844
+        ],
+        "Shopping Mall": [
+            7.12494776589985,
+            6.816586037755684
+        ],
+        "Main Station": [
+            7.209251472009609,
+            4.079446834449072
+        ],
+        "Zoo": [
+            7.235382489218799,
+            0.10918563688440974
+        ],
+        "Police HQ": [
+            8.2473117092686,
+            3.902735663889429
+        ],
+        "Fire Station": [
+            3.194275001659359,
+            3.8930200452436825
+        ]
+    },
+    "start": "Central Library",
+    "end": "Tech Hub",
+    "shortest_path_nodes": [
+        [
+            2.919471625974406,
+            7.224968349429053
+        ],
+        [
+            2.8264355890129043,
+            7.731274973098807
+        ],
+        [
+            2.9373042014509156,
+            8.907800708619115
+        ],
+        [
+            4.032992561922018,
+            9.102107634178479
+        ],
+        [
+            4.961156426630683,
+            9.26717104057731
+        ]
+    ],
+    "shortest_path_names": [
+        "Central Library",
+        "i36",
+        "i37",
+        "i46",
+        "Tech Hub"
+    ],
+    "shortest_path_landmarks": [
+        "Central Library",
+        "Tech Hub"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Central Library",
+            "i36",
+            "i37",
+            "i46",
+            "Tech Hub"
+        ],
+        [
+            "Central Library",
+            "i36",
+            "i45",
+            "i46",
+            "Tech Hub"
+        ],
+        [
+            "Central Library",
+            "i44",
+            "i54",
+            "i55",
+            "Tech Hub"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Central Library",
+            "Tech Hub"
+        ],
+        [
+            "Central Library",
+            "Tech Hub"
+        ],
+        [
+            "Central Library",
+            "Tech Hub"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 4
+}

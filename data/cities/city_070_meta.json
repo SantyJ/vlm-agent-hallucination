@@ -1,0 +1,136 @@
+{
+    "city_id": 70,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Zoo": [
+            8,
+            6
+        ],
+        "National Museum": [
+            7,
+            4
+        ],
+        "University": [
+            5,
+            1
+        ],
+        "General Hospital": [
+            2,
+            6
+        ],
+        "Central Library": [
+            8,
+            9
+        ],
+        "Financial Center": [
+            5,
+            3
+        ],
+        "Fire Station": [
+            2,
+            0
+        ],
+        "Aquarium": [
+            1,
+            9
+        ],
+        "Grand Park": [
+            2,
+            2
+        ],
+        "Convention Center": [
+            5,
+            5
+        ]
+    },
+    "start": "National Museum",
+    "end": "Aquarium",
+    "shortest_path_nodes": [
+        [
+            7,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            1,
+            9
+        ]
+    ],
+    "shortest_path_names": [
+        "National Museum",
+        "i68",
+        "i69",
+        "i70",
+        "i71",
+        "i63",
+        "i53",
+        "i46",
+        "i36",
+        "i26",
+        "Aquarium"
+    ],
+    "shortest_path_landmarks": [
+        "National Museum",
+        "Aquarium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "National Museum",
+            "i68",
+            "i69",
+            "i70",
+            "i71",
+            "i63",
+            "i53",
+            "i46",
+            "i36",
+            "i26",
+            "Aquarium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "National Museum",
+            "Aquarium"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 10
+}

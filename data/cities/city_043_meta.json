@@ -1,0 +1,114 @@
+{
+    "city_id": 43,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            4,
+            7
+        ],
+        "University": [
+            0,
+            5
+        ],
+        "Airport": [
+            7,
+            1
+        ],
+        "Stadium": [
+            2,
+            5
+        ],
+        "Tech Hub": [
+            1,
+            2
+        ],
+        "Convention Center": [
+            3,
+            9
+        ],
+        "Aquarium": [
+            0,
+            4
+        ],
+        "Zoo": [
+            1,
+            6
+        ],
+        "National Museum": [
+            8,
+            5
+        ],
+        "Central Library": [
+            2,
+            6
+        ]
+    },
+    "start": "Tech Hub",
+    "end": "Aquarium",
+    "shortest_path_nodes": [
+        [
+            1,
+            2
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "Tech Hub",
+        "i03",
+        "i04",
+        "Aquarium"
+    ],
+    "shortest_path_landmarks": [
+        "Tech Hub",
+        "Aquarium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Tech Hub",
+            "i03",
+            "i04",
+            "Aquarium"
+        ],
+        [
+            "Tech Hub",
+            "i11",
+            "i04",
+            "Aquarium"
+        ],
+        [
+            "Tech Hub",
+            "i11",
+            "i12",
+            "Aquarium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 3
+}

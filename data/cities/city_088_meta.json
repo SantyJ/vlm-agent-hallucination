@@ -1,0 +1,1003 @@
+{
+    "city_id": 88,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "University": [
+            6.772566863427821,
+            0.19196236530856103
+        ],
+        "General Hospital": [
+            5.725769112531968,
+            1.02408709775692
+        ],
+        "Airport": [
+            4.227328420198274,
+            7.190878118686239
+        ],
+        "Zoo": [
+            8.97598551935102,
+            0.2740503385526147
+        ],
+        "Tech Hub": [
+            0.11526958307494417,
+            3.941638041165433
+        ],
+        "Shopping Mall": [
+            9.12056800722723,
+            3.0204502497443118
+        ],
+        "Central Library": [
+            -0.025221465904672113,
+            4.831090758584895
+        ],
+        "Main Station": [
+            5.005679793564871,
+            8.86544666862778
+        ],
+        "National Museum": [
+            5.195478310689731,
+            3.925260576842848
+        ],
+        "Police HQ": [
+            8.972403865387834,
+            2.053351337987946
+        ]
+    },
+    "start": "Main Station",
+    "end": "Shopping Mall",
+    "shortest_path_nodes": [
+        [
+            5.005679793564871,
+            8.86544666862778
+        ],
+        [
+            5.190015198639714,
+            7.871073741427281
+        ],
+        [
+            5.75724243225783,
+            8.124905658349084
+        ],
+        [
+            6.16262827829872,
+            6.736527995378256
+        ],
+        [
+            5.785877018350367,
+            6.118331975494852
+        ],
+        [
+            7.137801696850191,
+            6.099630504214188
+        ],
+        [
+            6.952745678265791,
+            4.9130306604644955
+        ],
+        [
+            8.055166979139374,
+            5.180343019685676
+        ],
+        [
+            8.180136600974388,
+            3.9127109616502413
+        ],
+        [
+            8.167475200630347,
+            2.7426250616256103
+        ],
+        [
+            9.12056800722723,
+            3.0204502497443118
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i52",
+        "i59",
+        "i58",
+        "i57",
+        "i66",
+        "i65",
+        "i75",
+        "i74",
+        "i73",
+        "Shopping Mall"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Shopping Mall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i73",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i74",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i65",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i75",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i66",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i67",
+            "i77",
+            "i76",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i52",
+            "i59",
+            "i68",
+            "i78",
+            "i85",
+            "i84",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "i85",
+            "i84",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "i85",
+            "i84",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "i85",
+            "i84",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "i60",
+            "i69",
+            "i79",
+            "i86",
+            "i85",
+            "i84",
+            "i83",
+            "i82",
+            "i81",
+            "Shopping Mall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ],
+        [
+            "Main Station",
+            "Shopping Mall"
+        ]
+    ],
+    "num_equivalent_paths": 52,
+    "path_length": 10
+}

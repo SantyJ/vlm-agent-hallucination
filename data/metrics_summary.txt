@@ -1,0 +1,88 @@
+============================================================
+ACCURACY BY CONDITION AND ARCHITECTURE
+============================================================
+
+Architecture A:
+  baseline          : acc=0.200  strict=0.319  loose=0.390  (n=120)
+  sabotage          : acc=0.117  strict=0.277  loose=0.361  (n=120)
+  confident_liar    : acc=0.083  strict=0.300  loose=0.337  (n=120)
+  gaslighting       : acc=0.117  strict=0.301  loose=0.346  (n=120)
+  mitigation        : acc=0.158  strict=0.259  loose=0.313  (n=120)
+
+Architecture B:
+  baseline          : acc=0.058  strict=0.432  loose=0.253  (n=120)
+  sabotage          : acc=0.058  strict=0.425  loose=0.231  (n=120)
+  confident_liar    : acc=0.025  strict=0.371  loose=0.219  (n=120)
+  gaslighting       : acc=0.050  strict=0.428  loose=0.245  (n=120)
+  mitigation        : acc=0.050  strict=0.383  loose=0.196  (n=120)
+
+============================================================
+HALLUCINATION PROPAGATION RATE (HPR)
+HPR = baseline_accuracy - condition_accuracy
+============================================================
+
+Architecture A:
+  sabotage          : HPR=+0.083  (base=0.200, cond=0.117)
+  confident_liar    : HPR=+0.117  (base=0.200, cond=0.083)
+  gaslighting       : HPR=+0.083  (base=0.200, cond=0.117)
+  mitigation        : HPR=+0.042  (base=0.200, cond=0.158)
+
+Architecture B:
+  sabotage          : HPR=+0.000  (base=0.058, cond=0.058)
+  confident_liar    : HPR=+0.033  (base=0.058, cond=0.025)
+  gaslighting       : HPR=+0.008  (base=0.058, cond=0.050)
+  mitigation        : HPR=+0.008  (base=0.058, cond=0.050)
+
+============================================================
+CONFIDENCE BIAS SCORE (CBS)
+CBS = mean(nw_conf | wrong) - mean(nw_conf | correct)
+============================================================
+  mean(wrong)   = 98.22  (n=1090)
+  mean(correct) = 91.47  (n=110)
+  CBS           = +6.75
+  positive: wrong decisions came with higher NW confidence
+
+============================================================
+MANN-WHITNEY U: baseline vs confident_liar (is_correct)
+============================================================
+  baseline n        = 240, mean = 0.129
+  confident_liar n  = 240, mean = 0.054
+  U statistic       = 30960.000
+  p-value           = 0.0045
+  significant @0.05 = True
+
+============================================================
+ARCHITECTURE COMPARISON: A vs B per condition
+============================================================
+  baseline          : A=0.200, B=0.058, B vs A improvement: -70.8%
+  sabotage          : A=0.117, B=0.058, B vs A improvement: -50.0%
+  confident_liar    : A=0.083, B=0.025, B vs A improvement: -70.0%
+  gaslighting       : A=0.117, B=0.050, B vs A improvement: -57.1%
+  mitigation        : A=0.158, B=0.050, B vs A improvement: -68.4%
+
+============================================================
+STRICT vs LOOSE JACCARD BY CONDITION
+strict uses full waypoint list, loose uses landmark names only
+============================================================
+  baseline            strict=0.375  loose=0.322  gap=-0.054  (n=240)
+  sabotage            strict=0.351  loose=0.296  gap=-0.055  (n=240)
+  confident_liar      strict=0.336  loose=0.278  gap=-0.058  (n=240)
+  gaslighting         strict=0.365  loose=0.295  gap=-0.069  (n=240)
+  mitigation          strict=0.321  loose=0.255  gap=-0.066  (n=240)
+
+STRICT vs LOOSE JACCARD BY CONDITION AND ARCHITECTURE
+============================================================
+
+Architecture A:
+  baseline            strict=0.319  loose=0.390  gap=+0.071  (n=120)
+  sabotage            strict=0.277  loose=0.361  gap=+0.084  (n=120)
+  confident_liar      strict=0.300  loose=0.337  gap=+0.036  (n=120)
+  gaslighting         strict=0.301  loose=0.346  gap=+0.045  (n=120)
+  mitigation          strict=0.259  loose=0.313  gap=+0.054  (n=120)
+
+Architecture B:
+  baseline            strict=0.432  loose=0.253  gap=-0.178  (n=120)
+  sabotage            strict=0.425  loose=0.231  gap=-0.193  (n=120)
+  confident_liar      strict=0.371  loose=0.219  gap=-0.152  (n=120)
+  gaslighting         strict=0.428  loose=0.245  gap=-0.183  (n=120)
+  mitigation          strict=0.383  loose=0.196  gap=-0.187  (n=120)

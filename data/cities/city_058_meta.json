@@ -1,0 +1,158 @@
+{
+    "city_id": 58,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Grand Park": [
+            4,
+            8
+        ],
+        "Aquarium": [
+            5,
+            3
+        ],
+        "Financial Center": [
+            6,
+            5
+        ],
+        "Shopping Mall": [
+            6,
+            4
+        ],
+        "Convention Center": [
+            6,
+            2
+        ],
+        "Fire Station": [
+            4,
+            6
+        ],
+        "National Museum": [
+            7,
+            9
+        ],
+        "General Hospital": [
+            5,
+            2
+        ],
+        "Central Library": [
+            6,
+            7
+        ],
+        "Harbor": [
+            7,
+            4
+        ]
+    },
+    "start": "General Hospital",
+    "end": "Fire Station",
+    "shortest_path_nodes": [
+        [
+            5,
+            2
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "General Hospital",
+        "i43",
+        "i44",
+        "i45",
+        "i46",
+        "Fire Station"
+    ],
+    "shortest_path_landmarks": [
+        "General Hospital",
+        "Fire Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "General Hospital",
+            "i43",
+            "i44",
+            "i45",
+            "i46",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "i44",
+            "i45",
+            "i46",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "i51",
+            "i45",
+            "i46",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "i51",
+            "i52",
+            "i46",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "i51",
+            "i52",
+            "i53",
+            "Fire Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "General Hospital",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "Fire Station"
+        ],
+        [
+            "General Hospital",
+            "Aquarium",
+            "Fire Station"
+        ]
+    ],
+    "num_equivalent_paths": 5,
+    "path_length": 5
+}

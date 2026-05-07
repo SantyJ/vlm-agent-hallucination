@@ -1,0 +1,262 @@
+{
+    "city_id": 23,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Aquarium": [
+            9,
+            5
+        ],
+        "National Museum": [
+            2,
+            8
+        ],
+        "University": [
+            2,
+            4
+        ],
+        "Grand Park": [
+            8,
+            5
+        ],
+        "Stadium": [
+            9,
+            8
+        ],
+        "Police HQ": [
+            2,
+            5
+        ],
+        "Convention Center": [
+            4,
+            4
+        ],
+        "Zoo": [
+            2,
+            2
+        ],
+        "City Hall": [
+            0,
+            6
+        ],
+        "Main Station": [
+            8,
+            7
+        ]
+    },
+    "start": "Grand Park",
+    "end": "City Hall",
+    "shortest_path_nodes": [
+        [
+            8,
+            5
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "Grand Park",
+        "i70",
+        "i60",
+        "i50",
+        "i40",
+        "i31",
+        "Police HQ",
+        "i15",
+        "i06",
+        "City Hall"
+    ],
+    "shortest_path_landmarks": [
+        "Grand Park",
+        "Police HQ",
+        "City Hall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i50",
+            "i40",
+            "i31",
+            "Police HQ",
+            "i15",
+            "i06",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i50",
+            "i40",
+            "i31",
+            "Police HQ",
+            "i15",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i50",
+            "i40",
+            "i31",
+            "Police HQ",
+            "i23",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i50",
+            "i40",
+            "i31",
+            "i32",
+            "i23",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i50",
+            "i40",
+            "i41",
+            "i32",
+            "i23",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i50",
+            "i51",
+            "i41",
+            "i32",
+            "i23",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i60",
+            "i61",
+            "i51",
+            "i41",
+            "i32",
+            "i23",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i70",
+            "i71",
+            "i61",
+            "i51",
+            "i41",
+            "i32",
+            "i23",
+            "i16",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "i80",
+            "i71",
+            "i61",
+            "i51",
+            "i41",
+            "i32",
+            "i23",
+            "i16",
+            "City Hall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Grand Park",
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "Police HQ",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "City Hall"
+        ],
+        [
+            "Grand Park",
+            "City Hall"
+        ]
+    ],
+    "num_equivalent_paths": 9,
+    "path_length": 9
+}

@@ -1,0 +1,135 @@
+{
+    "city_id": 91,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 1,
+    "landmarks": {
+        "Main Station": [
+            4.09596738246451,
+            2.118931042837841
+        ],
+        "Police HQ": [
+            2.8892042735553125,
+            6.838349013916683
+        ],
+        "General Hospital": [
+            5.198075915286475,
+            4.025053809896859
+        ],
+        "Grand Park": [
+            7.955940306441084,
+            6.0467207320923775
+        ],
+        "Fire Station": [
+            -0.035121779960132604,
+            6.026827433578086
+        ],
+        "City Hall": [
+            9.262389780685842,
+            9.075980758051095
+        ],
+        "Airport": [
+            4.172711383044095,
+            3.9421090440772306
+        ],
+        "Shopping Mall": [
+            0.21376693257721407,
+            1.2886083174938159
+        ],
+        "Convention Center": [
+            9.128513106590397,
+            1.8642750935368348
+        ],
+        "Aquarium": [
+            6.133176428035071,
+            5.94727702648221
+        ]
+    },
+    "start": "Fire Station",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            -0.035121779960132604,
+            6.026827433578086
+        ],
+        [
+            -0.18348061594025505,
+            4.781909875570044
+        ],
+        [
+            0.8887342967339869,
+            4.851280153708441
+        ],
+        [
+            2.0265878449361217,
+            4.9132320005666585
+        ],
+        [
+            3.285700447992066,
+            5.006660873493231
+        ],
+        [
+            3.869014511517602,
+            5.152376628248375
+        ],
+        [
+            4.172711383044095,
+            3.9421090440772306
+        ],
+        [
+            5.198075915286475,
+            4.025053809896859
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i05",
+        "i13",
+        "i23",
+        "i33",
+        "i40",
+        "Airport",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Airport",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i05",
+            "i13",
+            "i23",
+            "i33",
+            "i40",
+            "Airport",
+            "General Hospital"
+        ],
+        [
+            "Fire Station",
+            "i14",
+            "i13",
+            "i23",
+            "i33",
+            "i40",
+            "Airport",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Airport",
+            "General Hospital"
+        ],
+        [
+            "Fire Station",
+            "Airport",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 2,
+    "path_length": 7
+}

@@ -1,0 +1,1533 @@
+{
+    "city_id": 65,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Fire Station": [
+            5,
+            4
+        ],
+        "National Museum": [
+            7,
+            6
+        ],
+        "Convention Center": [
+            4,
+            0
+        ],
+        "Police HQ": [
+            1,
+            6
+        ],
+        "Stadium": [
+            5,
+            7
+        ],
+        "Shopping Mall": [
+            3,
+            0
+        ],
+        "Aquarium": [
+            3,
+            8
+        ],
+        "Main Station": [
+            2,
+            3
+        ],
+        "University": [
+            4,
+            4
+        ],
+        "Harbor": [
+            5,
+            9
+        ]
+    },
+    "start": "Harbor",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Harbor",
+        "i44",
+        "i36",
+        "i28",
+        "i27",
+        "i26",
+        "i25",
+        "i24",
+        "i23",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "Harbor",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "i28",
+            "i27",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "Aquarium",
+            "i27",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "Aquarium",
+            "i27",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "Aquarium",
+            "i27",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "Aquarium",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i35",
+            "i26",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i35",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i34",
+            "i25",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i34",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i40",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "i40",
+            "i33",
+            "i24",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "i40",
+            "i33",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "i40",
+            "University",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "Fire Station",
+            "University",
+            "i32",
+            "i23",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i36",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "Aquarium",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i34",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i40",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "i40",
+            "i33",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i40",
+            "University",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "i40",
+            "University",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "Fire Station",
+            "University",
+            "i32",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i44",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i39",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i39",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i42",
+            "i41",
+            "i40",
+            "University",
+            "i39",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i41",
+            "i40",
+            "University",
+            "i39",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "i40",
+            "University",
+            "i39",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "Fire Station",
+            "University",
+            "i39",
+            "i31",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "i51",
+            "Stadium",
+            "i50",
+            "i49",
+            "Fire Station",
+            "i48",
+            "i39",
+            "i31",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Fire Station",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Aquarium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Fire Station",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Fire Station",
+            "University",
+            "Main Station"
+        ],
+        [
+            "Harbor",
+            "Stadium",
+            "Fire Station",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 84,
+    "path_length": 9
+}

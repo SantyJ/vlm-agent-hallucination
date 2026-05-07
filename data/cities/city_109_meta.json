@@ -1,0 +1,172 @@
+{
+    "city_id": 109,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 3,
+    "landmarks": {
+        "Convention Center": [
+            4.819468893546585,
+            5.222916400255861
+        ],
+        "Shopping Mall": [
+            4.00082685258945,
+            3.8987940965950605
+        ],
+        "Harbor": [
+            5.061079017137392,
+            7.149277905991394
+        ],
+        "Financial Center": [
+            2.872724793149053,
+            3.1070349129003265
+        ],
+        "Zoo": [
+            3.899019449193747,
+            8.850732586087684
+        ],
+        "Main Station": [
+            8.110664334708284,
+            7.1335656258899895
+        ],
+        "University": [
+            3.031936830363991,
+            5.7876501612000695
+        ],
+        "Tech Hub": [
+            -0.1337760985160901,
+            0.27275069817500003
+        ],
+        "City Hall": [
+            6.048165923064576,
+            0.275534886948864
+        ],
+        "Stadium": [
+            6.80872606437987,
+            8.002176946492344
+        ]
+    },
+    "start": "City Hall",
+    "end": "Harbor",
+    "shortest_path_nodes": [
+        [
+            6.048165923064576,
+            0.275534886948864
+        ],
+        [
+            5.928946384794247,
+            1.293983682937044
+        ],
+        [
+            5.708132482146601,
+            2.0594775985915295
+        ],
+        [
+            6.150251719975773,
+            3.2129688531167595
+        ],
+        [
+            6.25897707597597,
+            4.1952384145411505
+        ],
+        [
+            5.177259711182209,
+            4.225963220321858
+        ],
+        [
+            4.819468893546585,
+            5.222916400255861
+        ],
+        [
+            5.0097874876307955,
+            6.09422063551633
+        ],
+        [
+            5.061079017137392,
+            7.149277905991394
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i53",
+        "i54",
+        "i55",
+        "i56",
+        "i49",
+        "Convention Center",
+        "i50",
+        "Harbor"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "Convention Center",
+        "Harbor"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i53",
+            "i54",
+            "i55",
+            "i56",
+            "i49",
+            "Convention Center",
+            "i50",
+            "Harbor"
+        ],
+        [
+            "City Hall",
+            "i53",
+            "i54",
+            "i55",
+            "i56",
+            "i57",
+            "Convention Center",
+            "i50",
+            "Harbor"
+        ],
+        [
+            "City Hall",
+            "i53",
+            "i54",
+            "i55",
+            "i56",
+            "i57",
+            "i58",
+            "i50",
+            "Harbor"
+        ],
+        [
+            "City Hall",
+            "i53",
+            "i54",
+            "i55",
+            "i56",
+            "i57",
+            "i58",
+            "i59",
+            "Harbor"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "Convention Center",
+            "Harbor"
+        ],
+        [
+            "City Hall",
+            "Convention Center",
+            "Harbor"
+        ],
+        [
+            "City Hall",
+            "Harbor"
+        ],
+        [
+            "City Hall",
+            "Harbor"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 8
+}

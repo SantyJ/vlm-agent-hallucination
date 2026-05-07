@@ -1,0 +1,706 @@
+{
+    "city_id": 40,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Airport": [
+            0,
+            6
+        ],
+        "Central Library": [
+            5,
+            7
+        ],
+        "Grand Park": [
+            7,
+            0
+        ],
+        "General Hospital": [
+            1,
+            8
+        ],
+        "Fire Station": [
+            9,
+            3
+        ],
+        "National Museum": [
+            7,
+            3
+        ],
+        "Police HQ": [
+            1,
+            4
+        ],
+        "City Hall": [
+            4,
+            3
+        ],
+        "Zoo": [
+            2,
+            9
+        ],
+        "Tech Hub": [
+            9,
+            6
+        ]
+    },
+    "start": "Central Library",
+    "end": "Grand Park",
+    "shortest_path_nodes": [
+        [
+            5,
+            7
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            7,
+            1
+        ],
+        [
+            7,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Central Library",
+        "i62",
+        "i70",
+        "i69",
+        "i68",
+        "i67",
+        "National Museum",
+        "i66",
+        "i65",
+        "Grand Park"
+    ],
+    "shortest_path_landmarks": [
+        "Central Library",
+        "National Museum",
+        "Grand Park"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Central Library",
+            "i62",
+            "i70",
+            "i69",
+            "i68",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i69",
+            "i68",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i69",
+            "i68",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i60",
+            "i68",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i60",
+            "i68",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i60",
+            "i68",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i60",
+            "i59",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i60",
+            "i59",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i59",
+            "i67",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i60",
+            "i59",
+            "i58",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i59",
+            "i58",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i58",
+            "National Museum",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i59",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i58",
+            "i57",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i57",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i58",
+            "i57",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i57",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "i56",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i62",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i61",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i60",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i59",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i58",
+            "i57",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i57",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "i56",
+            "i55",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i48",
+            "i47",
+            "i46",
+            "i55",
+            "Grand Park"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "National Museum",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ],
+        [
+            "Central Library",
+            "Grand Park"
+        ]
+    ],
+    "num_equivalent_paths": 36,
+    "path_length": 9
+}

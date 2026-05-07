@@ -1,0 +1,106 @@
+{
+    "city_id": 61,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Fire Station": [
+            7,
+            8
+        ],
+        "Aquarium": [
+            9,
+            9
+        ],
+        "Financial Center": [
+            7,
+            3
+        ],
+        "National Museum": [
+            6,
+            0
+        ],
+        "City Hall": [
+            6,
+            3
+        ],
+        "Harbor": [
+            1,
+            0
+        ],
+        "University": [
+            7,
+            0
+        ],
+        "Grand Park": [
+            6,
+            7
+        ],
+        "Main Station": [
+            3,
+            1
+        ],
+        "Airport": [
+            5,
+            4
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Financial Center",
+    "shortest_path_nodes": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            7,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i70",
+        "i69",
+        "i68",
+        "i67",
+        "Financial Center"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Financial Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i70",
+            "i69",
+            "i68",
+            "i67",
+            "Financial Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Financial Center"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 5
+}

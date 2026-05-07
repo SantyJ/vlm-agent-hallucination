@@ -1,0 +1,258 @@
+{
+    "city_id": 116,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 3,
+    "landmarks": {
+        "Tech Hub": [
+            4.853349560865582,
+            0.7468004428261408
+        ],
+        "Financial Center": [
+            0.15294710947053308,
+            1.23928120705836
+        ],
+        "Grand Park": [
+            6.907712884277278,
+            4.009529733801047
+        ],
+        "Stadium": [
+            1.0992371836345318,
+            2.8070831712264552
+        ],
+        "Airport": [
+            1.0097780172220008,
+            2.21127246500251
+        ],
+        "Main Station": [
+            4.205549618943535,
+            8.055954347813325
+        ],
+        "Convention Center": [
+            3.7265254673098993,
+            2.276121787324757
+        ],
+        "National Museum": [
+            7.15175749570323,
+            2.91650220856824
+        ],
+        "University": [
+            0.7617954921873066,
+            7.9942606959587685
+        ],
+        "Harbor": [
+            8.799620955166137,
+            5.24471214795224
+        ]
+    },
+    "start": "Main Station",
+    "end": "Grand Park",
+    "shortest_path_nodes": [
+        [
+            4.205549618943535,
+            8.055954347813325
+        ],
+        [
+            3.82235793308541,
+            7.188997085796273
+        ],
+        [
+            4.116627945172436,
+            6.1490047480066465
+        ],
+        [
+            4.008990377710391,
+            5.112167299682185
+        ],
+        [
+            4.9566059962429465,
+            5.294251183637069
+        ],
+        [
+            6.270846256099175,
+            4.920626290147935
+        ],
+        [
+            6.24466152727593,
+            3.8054719603707743
+        ],
+        [
+            6.907712884277278,
+            4.009529733801047
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i41",
+        "i40",
+        "i39",
+        "i47",
+        "i57",
+        "i56",
+        "Grand Park"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Grand Park"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i56",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i48",
+            "i58",
+            "i57",
+            "i56",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "i56",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "i56",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i39",
+            "i47",
+            "i57",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i48",
+            "i58",
+            "i57",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "i57",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i48",
+            "i58",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i49",
+            "i48",
+            "i58",
+            "i66",
+            "i65",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "i50",
+            "i49",
+            "i48",
+            "i58",
+            "i66",
+            "i65",
+            "Grand Park"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ],
+        [
+            "Main Station",
+            "Grand Park"
+        ]
+    ],
+    "num_equivalent_paths": 11,
+    "path_length": 7
+}

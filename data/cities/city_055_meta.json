@@ -1,0 +1,88 @@
+{
+    "city_id": 55,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Police HQ": [
+            2,
+            2
+        ],
+        "University": [
+            5,
+            4
+        ],
+        "Airport": [
+            1,
+            5
+        ],
+        "Shopping Mall": [
+            3,
+            3
+        ],
+        "Fire Station": [
+            0,
+            5
+        ],
+        "Zoo": [
+            5,
+            2
+        ],
+        "City Hall": [
+            5,
+            9
+        ],
+        "Main Station": [
+            6,
+            6
+        ],
+        "Central Library": [
+            6,
+            0
+        ],
+        "Harbor": [
+            0,
+            1
+        ]
+    },
+    "start": "University",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "University",
+        "i57",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "University",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "University",
+            "i57",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "University",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

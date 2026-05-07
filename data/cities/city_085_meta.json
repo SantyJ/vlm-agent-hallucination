@@ -1,0 +1,112 @@
+{
+    "city_id": 85,
+    "complexity_level": 3,
+    "water_type": "river",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "Zoo": [
+            0.2862842083851674,
+            8.908937896833407
+        ],
+        "General Hospital": [
+            1.9586429913644658,
+            5.216392223110589
+        ],
+        "Aquarium": [
+            8.886068898008805,
+            2.1572575464882684
+        ],
+        "Airport": [
+            0.06507539516580152,
+            1.9862534700454988
+        ],
+        "Stadium": [
+            1.2048110751800098,
+            -0.25166842159340563
+        ],
+        "Central Library": [
+            4.790729356953725,
+            -0.23666578656298237
+        ],
+        "Fire Station": [
+            9.055952963570185,
+            9.134565186345782
+        ],
+        "Tech Hub": [
+            8.009853333010867,
+            2.2303055111981207
+        ],
+        "University": [
+            3.887208877281327,
+            8.90042757324926
+        ],
+        "Convention Center": [
+            8.194938360375971,
+            4.8911888210252235
+        ]
+    },
+    "start": "Convention Center",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            8.194938360375971,
+            4.8911888210252235
+        ],
+        [
+            7.257458140486124,
+            5.1912075504491195
+        ],
+        [
+            5.960184763259532,
+            5.1491261035488085
+        ],
+        [
+            5.144213624676319,
+            4.866535896664962
+        ],
+        [
+            3.9387641821390207,
+            4.768538590527408
+        ],
+        [
+            3.226232743034018,
+            5.044082830851343
+        ],
+        [
+            1.9586429913644658,
+            5.216392223110589
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i69",
+        "i59",
+        "i49",
+        "i41",
+        "i31",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i69",
+            "i59",
+            "i49",
+            "i41",
+            "i31",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 6
+}

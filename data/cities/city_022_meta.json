@@ -1,0 +1,214 @@
+{
+    "city_id": 22,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Aquarium": [
+            2,
+            6
+        ],
+        "General Hospital": [
+            9,
+            7
+        ],
+        "Main Station": [
+            4,
+            0
+        ],
+        "Shopping Mall": [
+            7,
+            9
+        ],
+        "University": [
+            5,
+            7
+        ],
+        "Stadium": [
+            9,
+            5
+        ],
+        "Tech Hub": [
+            2,
+            9
+        ],
+        "Convention Center": [
+            4,
+            4
+        ],
+        "Financial Center": [
+            0,
+            9
+        ],
+        "Harbor": [
+            0,
+            4
+        ]
+    },
+    "start": "University",
+    "end": "Tech Hub",
+    "shortest_path_nodes": [
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            9
+        ]
+    ],
+    "shortest_path_names": [
+        "University",
+        "i42",
+        "i34",
+        "i25",
+        "i26",
+        "Tech Hub"
+    ],
+    "shortest_path_landmarks": [
+        "University",
+        "Tech Hub"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "University",
+            "i42",
+            "i34",
+            "i25",
+            "i26",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i42",
+            "i34",
+            "i35",
+            "i26",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i42",
+            "i43",
+            "i35",
+            "i26",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i52",
+            "i43",
+            "i35",
+            "i26",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i42",
+            "i34",
+            "i35",
+            "i36",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i42",
+            "i43",
+            "i35",
+            "i36",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i52",
+            "i43",
+            "i35",
+            "i36",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i42",
+            "i43",
+            "i44",
+            "i36",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i52",
+            "i43",
+            "i44",
+            "i36",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "i52",
+            "i53",
+            "i44",
+            "i36",
+            "Tech Hub"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ],
+        [
+            "University",
+            "Tech Hub"
+        ]
+    ],
+    "num_equivalent_paths": 10,
+    "path_length": 5
+}

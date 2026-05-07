@@ -1,0 +1,88 @@
+{
+    "city_id": 10,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Tech Hub": [
+            9,
+            9
+        ],
+        "Convention Center": [
+            7,
+            0
+        ],
+        "Fire Station": [
+            9,
+            2
+        ],
+        "Airport": [
+            0,
+            4
+        ],
+        "Grand Park": [
+            3,
+            0
+        ],
+        "General Hospital": [
+            4,
+            2
+        ],
+        "Police HQ": [
+            9,
+            3
+        ],
+        "University": [
+            6,
+            8
+        ],
+        "Aquarium": [
+            3,
+            2
+        ],
+        "Zoo": [
+            6,
+            0
+        ]
+    },
+    "start": "Aquarium",
+    "end": "Grand Park",
+    "shortest_path_nodes": [
+        [
+            3,
+            2
+        ],
+        [
+            3,
+            1
+        ],
+        [
+            3,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Aquarium",
+        "i30",
+        "Grand Park"
+    ],
+    "shortest_path_landmarks": [
+        "Aquarium",
+        "Grand Park"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Aquarium",
+            "i30",
+            "Grand Park"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Aquarium",
+            "Grand Park"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

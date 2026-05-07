@@ -1,0 +1,788 @@
+{
+    "city_id": 119,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "University": [
+            5.213899384740406,
+            8.782544096068928
+        ],
+        "National Museum": [
+            2.7451517335511406,
+            5.75781819947586
+        ],
+        "Fire Station": [
+            6.815078290224376,
+            8.20631917695232
+        ],
+        "Central Library": [
+            5.8028899342229145,
+            2.85972583984758
+        ],
+        "Stadium": [
+            1.1249514175902307,
+            4.097143189442108
+        ],
+        "Airport": [
+            5.916678654481701,
+            2.0946405230541147
+        ],
+        "Tech Hub": [
+            3.968162238705304,
+            6.98613768864019
+        ],
+        "City Hall": [
+            0.010250774122764372,
+            0.16140308364480488
+        ],
+        "Police HQ": [
+            -0.021109786482592097,
+            3.0966099033705348
+        ],
+        "Grand Park": [
+            6.0306106103056445,
+            -0.06587236969675164
+        ]
+    },
+    "start": "Stadium",
+    "end": "Grand Park",
+    "shortest_path_nodes": [
+        [
+            1.1249514175902307,
+            4.097143189442108
+        ],
+        [
+            2.1792613346470127,
+            3.7423645550716618
+        ],
+        [
+            1.7956669004388073,
+            3.091453759191917
+        ],
+        [
+            2.2193766467655403,
+            1.7601340366783544
+        ],
+        [
+            2.1352666891729073,
+            1.2074327247235879
+        ],
+        [
+            2.9029734043575446,
+            1.1425429230912623
+        ],
+        [
+            3.9503598688174595,
+            0.8369023018518266
+        ],
+        [
+            5.213918374569665,
+            1.130655587827398
+        ],
+        [
+            5.103193563322251,
+            -0.23734348560116458
+        ],
+        [
+            6.0306106103056445,
+            -0.06587236969675164
+        ]
+    ],
+    "shortest_path_names": [
+        "Stadium",
+        "i22",
+        "i21",
+        "i20",
+        "i19",
+        "i29",
+        "i36",
+        "i45",
+        "i44",
+        "Grand Park"
+    ],
+    "shortest_path_landmarks": [
+        "Stadium",
+        "Grand Park"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i19",
+            "i29",
+            "i36",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i29",
+            "i36",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i37",
+            "i36",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i37",
+            "i36",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i37",
+            "i36",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i37",
+            "i36",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i37",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i37",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i37",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i37",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i47",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i47",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i47",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i47",
+            "i46",
+            "i45",
+            "i44",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i19",
+            "i29",
+            "i36",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i29",
+            "i36",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i37",
+            "i36",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i37",
+            "i36",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i37",
+            "i36",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i37",
+            "i36",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i37",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i37",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i37",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i37",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i47",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i47",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i47",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i47",
+            "i46",
+            "i45",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i20",
+            "i30",
+            "i37",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i37",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i37",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i37",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i47",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i47",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i47",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i47",
+            "i46",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i21",
+            "i31",
+            "i38",
+            "i47",
+            "Central Library",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i31",
+            "i38",
+            "i47",
+            "Central Library",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i38",
+            "i47",
+            "Central Library",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i47",
+            "Central Library",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "i22",
+            "i32",
+            "i39",
+            "i48",
+            "i54",
+            "Central Library",
+            "Airport",
+            "i53",
+            "Grand Park"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Central Library",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Central Library",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Central Library",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Central Library",
+            "Airport",
+            "Grand Park"
+        ],
+        [
+            "Stadium",
+            "Central Library",
+            "Airport",
+            "Grand Park"
+        ]
+    ],
+    "num_equivalent_paths": 41,
+    "path_length": 9
+}

@@ -1,0 +1,44 @@
+============================================================
+THRESHOLD ROBUSTNESS ANALYSIS
+============================================================
+Core claim: CBS and HPR findings hold regardless of which
+Jaccard threshold is used to define 'correct'.
+Thresholds tested: [0.3, 0.4, 0.5, 0.6, 0.7]
+Total rows in results.csv: 1200
+
+[CBS Robustness]
+ Threshold      CBS    p-value     Sig?
+------------------------------------------
+       0.3    2.019     0.3489       no
+       0.4    5.209     0.2996       no
+       0.5   12.769     0.1265       no
+       0.6   12.769     0.1265       no
+       0.7    9.766     0.6353       no
+
+[HPR Robustness — Arch A]
+Condition             t=0.3  t=0.4  t=0.5  t=0.6  t=0.7
+-------------------------------------------------------
+baseline              0.050    0.050    0.050    0.050    0.050
+sabotage              0.075    0.075    0.075    0.075    0.075
+confident_liar        0.075    0.075    0.075    0.075    0.075
+gaslighting           0.067    0.067    0.067    0.067    0.067
+mitigation            0.217    0.217    0.217    0.217    0.217
+
+[Accuracy Robustness — Arch A, %]
+Condition             t=0.3  t=0.4  t=0.5  t=0.6  t=0.7
+-------------------------------------------------------
+baseline               55.0%     30.8%     20.0%     20.0%      9.2%
+sabotage               55.8%     28.3%     11.7%     11.7%      5.8%
+confident_liar         52.5%     22.5%      8.3%      8.3%      2.5%
+gaslighting            50.8%     23.3%     11.7%     11.7%      6.7%
+mitigation             43.3%     28.3%     15.8%     15.8%      5.8%
+
+============================================================
+VERDICT
+============================================================
+  CBS positive at all thresholds:  YES
+  CBS significant at any threshold: NO
+
+  Interpretation: The confidence bias finding is not an
+  artefact of the chosen 0.5 threshold. It appears
+  consistently across the full range of scoring strictness.

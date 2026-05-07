@@ -1,0 +1,150 @@
+{
+    "city_id": 51,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Airport": [
+            4,
+            6
+        ],
+        "Main Station": [
+            6,
+            4
+        ],
+        "University": [
+            7,
+            7
+        ],
+        "Harbor": [
+            3,
+            3
+        ],
+        "Tech Hub": [
+            3,
+            9
+        ],
+        "Zoo": [
+            2,
+            4
+        ],
+        "Central Library": [
+            9,
+            4
+        ],
+        "Fire Station": [
+            6,
+            3
+        ],
+        "General Hospital": [
+            5,
+            1
+        ],
+        "Financial Center": [
+            8,
+            0
+        ]
+    },
+    "start": "Harbor",
+    "end": "Financial Center",
+    "shortest_path_nodes": [
+        [
+            3,
+            3
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            3
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            8,
+            2
+        ],
+        [
+            8,
+            1
+        ],
+        [
+            8,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Harbor",
+        "i41",
+        "i49",
+        "Fire Station",
+        "i66",
+        "i74",
+        "i73",
+        "Financial Center"
+    ],
+    "shortest_path_landmarks": [
+        "Harbor",
+        "Fire Station",
+        "Financial Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Harbor",
+            "i41",
+            "i49",
+            "Fire Station",
+            "i66",
+            "i74",
+            "i73",
+            "Financial Center"
+        ],
+        [
+            "Harbor",
+            "i41",
+            "i49",
+            "Fire Station",
+            "i66",
+            "i65",
+            "i73",
+            "Financial Center"
+        ],
+        [
+            "Harbor",
+            "i41",
+            "i49",
+            "Fire Station",
+            "i66",
+            "i65",
+            "i64",
+            "Financial Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Harbor",
+            "Fire Station",
+            "Financial Center"
+        ],
+        [
+            "Harbor",
+            "Fire Station",
+            "Financial Center"
+        ],
+        [
+            "Harbor",
+            "Fire Station",
+            "Financial Center"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 7
+}

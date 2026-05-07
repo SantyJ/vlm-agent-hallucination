@@ -1,0 +1,133 @@
+{
+    "city_id": 9,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Harbor": [
+            5,
+            2
+        ],
+        "Police HQ": [
+            7,
+            0
+        ],
+        "Aquarium": [
+            0,
+            8
+        ],
+        "Grand Park": [
+            4,
+            6
+        ],
+        "Shopping Mall": [
+            3,
+            0
+        ],
+        "Main Station": [
+            6,
+            3
+        ],
+        "Zoo": [
+            1,
+            7
+        ],
+        "Stadium": [
+            3,
+            7
+        ],
+        "Convention Center": [
+            2,
+            5
+        ],
+        "Airport": [
+            5,
+            9
+        ]
+    },
+    "start": "Main Station",
+    "end": "Police HQ",
+    "shortest_path_nodes": [
+        [
+            6,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            7,
+            1
+        ],
+        [
+            7,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i64",
+        "i63",
+        "i62",
+        "Police HQ"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Police HQ"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i64",
+            "i63",
+            "i62",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i55",
+            "i63",
+            "i62",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i55",
+            "i54",
+            "i62",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i55",
+            "i54",
+            "i53",
+            "Police HQ"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "Police HQ"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 4
+}

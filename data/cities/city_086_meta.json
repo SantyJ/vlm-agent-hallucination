@@ -1,0 +1,88 @@
+{
+    "city_id": 86,
+    "complexity_level": 3,
+    "water_type": "river",
+    "num_dead_ends": 3,
+    "landmarks": {
+        "Police HQ": [
+            5.846245950393205,
+            3.0742081059341713
+        ],
+        "Stadium": [
+            6.780608962122502,
+            1.1761838482500182
+        ],
+        "Financial Center": [
+            6.908368954101597,
+            4.0558171713047315
+        ],
+        "City Hall": [
+            1.098525178314425,
+            5.279086214658835
+        ],
+        "Zoo": [
+            5.86183820185841,
+            2.1168877350978423
+        ],
+        "National Museum": [
+            -0.14840843824859018,
+            6.861505392099023
+        ],
+        "Grand Park": [
+            0.23325784713926595,
+            5.811925725623568
+        ],
+        "Aquarium": [
+            7.025902038357006,
+            1.9512752671294287
+        ],
+        "Airport": [
+            8.063818754991521,
+            7.710769308869928
+        ],
+        "Harbor": [
+            4.971169582512105,
+            4.225875964491587
+        ]
+    },
+    "start": "Aquarium",
+    "end": "Financial Center",
+    "shortest_path_nodes": [
+        [
+            7.025902038357006,
+            1.9512752671294287
+        ],
+        [
+            6.934395993336548,
+            2.8437273181414047
+        ],
+        [
+            6.908368954101597,
+            4.0558171713047315
+        ]
+    ],
+    "shortest_path_names": [
+        "Aquarium",
+        "i66",
+        "Financial Center"
+    ],
+    "shortest_path_landmarks": [
+        "Aquarium",
+        "Financial Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Aquarium",
+            "i66",
+            "Financial Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Aquarium",
+            "Financial Center"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

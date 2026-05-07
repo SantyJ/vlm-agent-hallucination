@@ -1,0 +1,309 @@
+{
+    "city_id": 42,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Stadium": [
+            6,
+            3
+        ],
+        "Main Station": [
+            7,
+            6
+        ],
+        "Convention Center": [
+            9,
+            5
+        ],
+        "Shopping Mall": [
+            2,
+            4
+        ],
+        "Zoo": [
+            7,
+            7
+        ],
+        "City Hall": [
+            3,
+            4
+        ],
+        "Fire Station": [
+            3,
+            2
+        ],
+        "University": [
+            8,
+            7
+        ],
+        "Financial Center": [
+            5,
+            3
+        ],
+        "General Hospital": [
+            9,
+            6
+        ]
+    },
+    "start": "Zoo",
+    "end": "Financial Center",
+    "shortest_path_nodes": [
+        [
+            7,
+            7
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Zoo",
+        "i63",
+        "i54",
+        "i53",
+        "i52",
+        "i51",
+        "Financial Center"
+    ],
+    "shortest_path_landmarks": [
+        "Zoo",
+        "Financial Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Zoo",
+            "i63",
+            "i54",
+            "i53",
+            "i52",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "i63",
+            "i62",
+            "i53",
+            "i52",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i62",
+            "i53",
+            "i52",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "i63",
+            "i62",
+            "i61",
+            "i52",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i62",
+            "i61",
+            "i52",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i71",
+            "i61",
+            "i52",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "i63",
+            "i62",
+            "i61",
+            "i60",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i62",
+            "i61",
+            "i60",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i71",
+            "i61",
+            "i60",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i71",
+            "i70",
+            "i60",
+            "i51",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "i63",
+            "i62",
+            "i61",
+            "i60",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i62",
+            "i61",
+            "i60",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i71",
+            "i61",
+            "i60",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i71",
+            "i70",
+            "i60",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "i71",
+            "i70",
+            "i69",
+            "Stadium",
+            "Financial Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Zoo",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Stadium",
+            "Financial Center"
+        ],
+        [
+            "Zoo",
+            "Main Station",
+            "Stadium",
+            "Financial Center"
+        ]
+    ],
+    "num_equivalent_paths": 15,
+    "path_length": 6
+}

@@ -1,0 +1,149 @@
+{
+    "city_id": 69,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Fire Station": [
+            0,
+            0
+        ],
+        "Aquarium": [
+            7,
+            4
+        ],
+        "General Hospital": [
+            9,
+            8
+        ],
+        "Convention Center": [
+            8,
+            6
+        ],
+        "Main Station": [
+            4,
+            8
+        ],
+        "Grand Park": [
+            7,
+            0
+        ],
+        "Police HQ": [
+            0,
+            8
+        ],
+        "Central Library": [
+            8,
+            0
+        ],
+        "Tech Hub": [
+            4,
+            4
+        ],
+        "Harbor": [
+            1,
+            7
+        ]
+    },
+    "start": "Convention Center",
+    "end": "Police HQ",
+    "shortest_path_nodes": [
+        [
+            8,
+            6
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            6
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i70",
+        "i62",
+        "i52",
+        "i43",
+        "i34",
+        "i24",
+        "Harbor",
+        "i07",
+        "Police HQ"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "Harbor",
+        "Police HQ"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i70",
+            "i62",
+            "i52",
+            "i43",
+            "i34",
+            "i24",
+            "Harbor",
+            "i07",
+            "Police HQ"
+        ],
+        [
+            "Convention Center",
+            "i70",
+            "i62",
+            "i52",
+            "i43",
+            "i34",
+            "i24",
+            "Harbor",
+            "i16",
+            "Police HQ"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "Harbor",
+            "Police HQ"
+        ],
+        [
+            "Convention Center",
+            "Harbor",
+            "Police HQ"
+        ]
+    ],
+    "num_equivalent_paths": 2,
+    "path_length": 9
+}

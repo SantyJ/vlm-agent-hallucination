@@ -1,0 +1,135 @@
+{
+    "city_id": 75,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Central Library": [
+            4,
+            5
+        ],
+        "Tech Hub": [
+            2,
+            0
+        ],
+        "City Hall": [
+            9,
+            7
+        ],
+        "University": [
+            4,
+            6
+        ],
+        "Shopping Mall": [
+            0,
+            4
+        ],
+        "Stadium": [
+            7,
+            2
+        ],
+        "Financial Center": [
+            7,
+            5
+        ],
+        "Convention Center": [
+            7,
+            7
+        ],
+        "General Hospital": [
+            6,
+            2
+        ],
+        "Airport": [
+            7,
+            1
+        ]
+    },
+    "start": "Financial Center",
+    "end": "University",
+    "shortest_path_nodes": [
+        [
+            7,
+            5
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "Financial Center",
+        "i61",
+        "i52",
+        "Central Library",
+        "University"
+    ],
+    "shortest_path_landmarks": [
+        "Financial Center",
+        "Central Library",
+        "University"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Financial Center",
+            "i61",
+            "i52",
+            "Central Library",
+            "University"
+        ],
+        [
+            "Financial Center",
+            "i61",
+            "i52",
+            "i53",
+            "University"
+        ],
+        [
+            "Financial Center",
+            "i61",
+            "i62",
+            "i53",
+            "University"
+        ],
+        [
+            "Financial Center",
+            "i69",
+            "i62",
+            "i53",
+            "University"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Financial Center",
+            "Central Library",
+            "University"
+        ],
+        [
+            "Financial Center",
+            "University"
+        ],
+        [
+            "Financial Center",
+            "University"
+        ],
+        [
+            "Financial Center",
+            "University"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 4
+}

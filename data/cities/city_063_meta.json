@@ -1,0 +1,100 @@
+{
+    "city_id": 63,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Financial Center": [
+            6,
+            1
+        ],
+        "General Hospital": [
+            4,
+            7
+        ],
+        "Airport": [
+            8,
+            9
+        ],
+        "Main Station": [
+            3,
+            6
+        ],
+        "Shopping Mall": [
+            6,
+            3
+        ],
+        "Tech Hub": [
+            2,
+            5
+        ],
+        "Convention Center": [
+            4,
+            2
+        ],
+        "Zoo": [
+            9,
+            6
+        ],
+        "Grand Park": [
+            0,
+            2
+        ],
+        "City Hall": [
+            0,
+            7
+        ]
+    },
+    "start": "City Hall",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            0,
+            7
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i16",
+        "i25",
+        "i34",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i16",
+            "i25",
+            "i34",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 4
+}

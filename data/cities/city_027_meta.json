@@ -1,0 +1,1505 @@
+{
+    "city_id": 27,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Fire Station": [
+            2,
+            0
+        ],
+        "National Museum": [
+            3,
+            6
+        ],
+        "Tech Hub": [
+            5,
+            3
+        ],
+        "City Hall": [
+            1,
+            9
+        ],
+        "Grand Park": [
+            9,
+            3
+        ],
+        "University": [
+            9,
+            5
+        ],
+        "Airport": [
+            6,
+            7
+        ],
+        "Main Station": [
+            0,
+            9
+        ],
+        "Shopping Mall": [
+            3,
+            8
+        ],
+        "Aquarium": [
+            0,
+            1
+        ]
+    },
+    "start": "Shopping Mall",
+    "end": "University",
+    "shortest_path_nodes": [
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            8
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            9,
+            6
+        ],
+        [
+            9,
+            5
+        ]
+    ],
+    "shortest_path_names": [
+        "Shopping Mall",
+        "i43",
+        "i52",
+        "i61",
+        "i71",
+        "i81",
+        "i89",
+        "i88",
+        "i87",
+        "University"
+    ],
+    "shortest_path_landmarks": [
+        "Shopping Mall",
+        "University"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i81",
+            "i89",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i81",
+            "i80",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i70",
+            "i80",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i70",
+            "i80",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i88",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i81",
+            "i80",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i70",
+            "i80",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i70",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i87",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i81",
+            "i80",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i70",
+            "i80",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i80",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i70",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i79",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "i71",
+            "i70",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i70",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i70",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i41",
+            "i50",
+            "i60",
+            "i69",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i61",
+            "Airport",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "Airport",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "Airport",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "i50",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i41",
+            "i50",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i41",
+            "i50",
+            "i60",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i52",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i51",
+            "i50",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i41",
+            "i50",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i41",
+            "i50",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i43",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "i42",
+            "i41",
+            "i40",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i41",
+            "i40",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "i33",
+            "National Museum",
+            "i32",
+            "i40",
+            "i49",
+            "i59",
+            "i68",
+            "i78",
+            "University"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "Airport",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ],
+        [
+            "Shopping Mall",
+            "National Museum",
+            "University"
+        ]
+    ],
+    "num_equivalent_paths": 84,
+    "path_length": 9
+}

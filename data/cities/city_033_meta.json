@@ -1,0 +1,2161 @@
+{
+    "city_id": 33,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "National Museum": [
+            5,
+            0
+        ],
+        "Grand Park": [
+            2,
+            3
+        ],
+        "University": [
+            1,
+            9
+        ],
+        "Zoo": [
+            8,
+            9
+        ],
+        "Fire Station": [
+            2,
+            4
+        ],
+        "Main Station": [
+            0,
+            8
+        ],
+        "Tech Hub": [
+            9,
+            2
+        ],
+        "Police HQ": [
+            9,
+            4
+        ],
+        "General Hospital": [
+            1,
+            6
+        ],
+        "Financial Center": [
+            7,
+            4
+        ]
+    },
+    "start": "Zoo",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            1,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "Zoo",
+        "i73",
+        "i64",
+        "i54",
+        "i45",
+        "i35",
+        "i25",
+        "University",
+        "i17",
+        "i16",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Zoo",
+        "University",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i25",
+            "University",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i25",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i34",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i34",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i17",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i25",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i34",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i34",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i16",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i25",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i24",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i23",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i35",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i34",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i33",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i45",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i44",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i62",
+            "i52",
+            "i43",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i54",
+            "i53",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i53",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i53",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i62",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i62",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i62",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i62",
+            "i52",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i64",
+            "i63",
+            "i62",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i63",
+            "i62",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i63",
+            "i62",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i62",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i62",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i62",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i73",
+            "i72",
+            "i71",
+            "i70",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i72",
+            "i71",
+            "i70",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i71",
+            "i70",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "i82",
+            "i81",
+            "i80",
+            "i70",
+            "i61",
+            "i51",
+            "i42",
+            "i32",
+            "i22",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Zoo",
+            "University",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ],
+        [
+            "Zoo",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 120,
+    "path_length": 10
+}

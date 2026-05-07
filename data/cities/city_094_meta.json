@@ -1,0 +1,120 @@
+{
+    "city_id": 94,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 6,
+    "landmarks": {
+        "Financial Center": [
+            5.169930905761767,
+            2.9227137064896174
+        ],
+        "General Hospital": [
+            7.251803799074033,
+            7.795983171405723
+        ],
+        "Airport": [
+            7.770858912793568,
+            8.150936746297951
+        ],
+        "National Museum": [
+            3.0579561384089944,
+            6.853068925809622
+        ],
+        "Convention Center": [
+            -0.17171623876144013,
+            6.74745076873072
+        ],
+        "Harbor": [
+            6.786524044748524,
+            3.9318314573134283
+        ],
+        "Central Library": [
+            7.917230603770317,
+            3.148066134862764
+        ],
+        "Main Station": [
+            4.1106738668018625,
+            5.901206230220054
+        ],
+        "Shopping Mall": [
+            3.7862840442353463,
+            0.20563291578281057
+        ],
+        "University": [
+            4.0247221407821,
+            7.135683810824502
+        ]
+    },
+    "start": "Harbor",
+    "end": "Airport",
+    "shortest_path_nodes": [
+        [
+            6.786524044748524,
+            3.9318314573134283
+        ],
+        [
+            7.086290270659766,
+            5.029677680793573
+        ],
+        [
+            7.196906290979836,
+            6.103649774039418
+        ],
+        [
+            7.083638014982989,
+            7.236540792534055
+        ],
+        [
+            7.251803799074033,
+            7.795983171405723
+        ],
+        [
+            7.770858912793568,
+            8.150936746297951
+        ]
+    ],
+    "shortest_path_names": [
+        "Harbor",
+        "i65",
+        "i66",
+        "i67",
+        "General Hospital",
+        "Airport"
+    ],
+    "shortest_path_landmarks": [
+        "Harbor",
+        "General Hospital",
+        "Airport"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Harbor",
+            "i65",
+            "i66",
+            "i67",
+            "General Hospital",
+            "Airport"
+        ],
+        [
+            "Harbor",
+            "i65",
+            "i66",
+            "i67",
+            "i75",
+            "Airport"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Harbor",
+            "General Hospital",
+            "Airport"
+        ],
+        [
+            "Harbor",
+            "Airport"
+        ]
+    ],
+    "num_equivalent_paths": 2,
+    "path_length": 5
+}

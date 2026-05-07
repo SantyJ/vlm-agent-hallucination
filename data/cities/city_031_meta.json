@@ -1,0 +1,100 @@
+{
+    "city_id": 31,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Financial Center": [
+            4,
+            9
+        ],
+        "National Museum": [
+            2,
+            2
+        ],
+        "Fire Station": [
+            8,
+            7
+        ],
+        "Tech Hub": [
+            1,
+            9
+        ],
+        "Shopping Mall": [
+            2,
+            8
+        ],
+        "Convention Center": [
+            3,
+            4
+        ],
+        "Central Library": [
+            9,
+            2
+        ],
+        "City Hall": [
+            7,
+            4
+        ],
+        "Zoo": [
+            3,
+            0
+        ],
+        "Airport": [
+            5,
+            7
+        ]
+    },
+    "start": "City Hall",
+    "end": "Convention Center",
+    "shortest_path_nodes": [
+        [
+            7,
+            4
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "City Hall",
+        "i58",
+        "i49",
+        "i40",
+        "Convention Center"
+    ],
+    "shortest_path_landmarks": [
+        "City Hall",
+        "Convention Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "City Hall",
+            "i58",
+            "i49",
+            "i40",
+            "Convention Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "City Hall",
+            "Convention Center"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 4
+}

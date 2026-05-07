@@ -1,0 +1,30 @@
+============================================================
+BASELINE-CONTROLLED ANALYSIS
+============================================================
+Total cities: 120
+Baseline-correct (Arch A): 24
+Baseline-wrong  (Arch A): 96
+
+Mann-Whitney U: Jaccard under manipulation (correct vs wrong cities)
+Condition              U-stat    p-value  Significant?
+-------------------------------------------------------
+sabotage               1394.5     0.1119            no
+confident_liar         1340.5     0.2168            no
+gaslighting            1332.0     0.2385            no
+mitigation             1127.5     0.8744            no
+
+============================================================
+CORE REBUTTAL: Does manipulation hurt baseline-CORRECT cities?
+============================================================
+sabotage              HPR=0.042  Jaccard_delta=-0.0808  (n=24)
+confident_liar        HPR=0.083  Jaccard_delta=-0.0690  (n=24)
+gaslighting           HPR=0.083  Jaccard_delta=-0.0488  (n=24)
+mitigation            HPR=0.250  Jaccard_delta=-0.1636  (n=24)
+
+============================================================
+COMPARISON: Same metrics for baseline-WRONG cities
+============================================================
+sabotage              HPR=0.083  Jaccard_delta=-0.0323  (n=96)
+confident_liar        HPR=0.073  Jaccard_delta=-0.0059  (n=96)
+gaslighting           HPR=0.062  Jaccard_delta=-0.0106  (n=96)
+mitigation            HPR=0.208  Jaccard_delta=-0.0338  (n=96)

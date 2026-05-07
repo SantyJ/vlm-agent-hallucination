@@ -1,0 +1,237 @@
+{
+    "city_id": 60,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Aquarium": [
+            0,
+            6
+        ],
+        "Stadium": [
+            8,
+            4
+        ],
+        "General Hospital": [
+            8,
+            5
+        ],
+        "Airport": [
+            6,
+            1
+        ],
+        "National Museum": [
+            1,
+            1
+        ],
+        "Grand Park": [
+            7,
+            0
+        ],
+        "Shopping Mall": [
+            2,
+            9
+        ],
+        "University": [
+            5,
+            3
+        ],
+        "City Hall": [
+            4,
+            4
+        ],
+        "Police HQ": [
+            3,
+            8
+        ]
+    },
+    "start": "Aquarium",
+    "end": "University",
+    "shortest_path_nodes": [
+        [
+            0,
+            6
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "shortest_path_names": [
+        "Aquarium",
+        "i15",
+        "i25",
+        "i24",
+        "i32",
+        "City Hall",
+        "i49",
+        "University"
+    ],
+    "shortest_path_landmarks": [
+        "Aquarium",
+        "City Hall",
+        "University"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Aquarium",
+            "i15",
+            "i25",
+            "i24",
+            "i32",
+            "City Hall",
+            "i49",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i15",
+            "i14",
+            "i24",
+            "i32",
+            "City Hall",
+            "i49",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i06",
+            "i14",
+            "i24",
+            "i32",
+            "City Hall",
+            "i49",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i15",
+            "i25",
+            "i24",
+            "i32",
+            "City Hall",
+            "i40",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i15",
+            "i14",
+            "i24",
+            "i32",
+            "City Hall",
+            "i40",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i06",
+            "i14",
+            "i24",
+            "i32",
+            "City Hall",
+            "i40",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i15",
+            "i25",
+            "i24",
+            "i32",
+            "i31",
+            "i40",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i15",
+            "i14",
+            "i24",
+            "i32",
+            "i31",
+            "i40",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "i06",
+            "i14",
+            "i24",
+            "i32",
+            "i31",
+            "i40",
+            "University"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Aquarium",
+            "City Hall",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "City Hall",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "City Hall",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "City Hall",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "City Hall",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "City Hall",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "University"
+        ],
+        [
+            "Aquarium",
+            "University"
+        ]
+    ],
+    "num_equivalent_paths": 9,
+    "path_length": 7
+}

@@ -1,0 +1,120 @@
+{
+    "city_id": 46,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            3,
+            6
+        ],
+        "Stadium": [
+            6,
+            2
+        ],
+        "Grand Park": [
+            8,
+            5
+        ],
+        "Harbor": [
+            1,
+            2
+        ],
+        "Zoo": [
+            7,
+            3
+        ],
+        "Aquarium": [
+            5,
+            3
+        ],
+        "Shopping Mall": [
+            8,
+            2
+        ],
+        "National Museum": [
+            0,
+            4
+        ],
+        "Police HQ": [
+            0,
+            2
+        ],
+        "Convention Center": [
+            7,
+            0
+        ]
+    },
+    "start": "Convention Center",
+    "end": "Harbor",
+    "shortest_path_nodes": [
+        [
+            7,
+            0
+        ],
+        [
+            7,
+            1
+        ],
+        [
+            6,
+            2
+        ],
+        [
+            5,
+            2
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            3,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            1,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i65",
+        "Stadium",
+        "i49",
+        "i39",
+        "i30",
+        "i20",
+        "Harbor"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "Stadium",
+        "Harbor"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i65",
+            "Stadium",
+            "i49",
+            "i39",
+            "i30",
+            "i20",
+            "Harbor"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "Stadium",
+            "Harbor"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 7
+}

@@ -1,0 +1,430 @@
+{
+    "city_id": 103,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Stadium": [
+            5.969828631284198,
+            6.929647893565459
+        ],
+        "National Museum": [
+            4.838388220267316,
+            6.218318111432267
+        ],
+        "University": [
+            3.901436731557532,
+            0.29733011420199146
+        ],
+        "Police HQ": [
+            0.8481860097437204,
+            4.299621827029876
+        ],
+        "Airport": [
+            9.201280744792777,
+            4.078450766446162
+        ],
+        "General Hospital": [
+            7.119874913082533,
+            4.106482582279271
+        ],
+        "Financial Center": [
+            3.038304296305878,
+            0.9149032328026884
+        ],
+        "Main Station": [
+            4.941655384525582,
+            4.838694519736164
+        ],
+        "Tech Hub": [
+            7.114579734643537,
+            2.1170355969850023
+        ],
+        "Fire Station": [
+            3.888267971838816,
+            2.887664939827138
+        ]
+    },
+    "start": "Financial Center",
+    "end": "National Museum",
+    "shortest_path_nodes": [
+        [
+            3.038304296305878,
+            0.9149032328026884
+        ],
+        [
+            1.8928550732849776,
+            1.2857696018031495
+        ],
+        [
+            2.015487767420465,
+            2.016510523676336
+        ],
+        [
+            2.1527170156917594,
+            3.0892005508786697
+        ],
+        [
+            1.8579266395918261,
+            3.979325085952715
+        ],
+        [
+            2.0381625644799204,
+            4.86781794865638
+        ],
+        [
+            1.8337565348851186,
+            5.883213367205495
+        ],
+        [
+            2.7172854504375255,
+            5.931259157060189
+        ],
+        [
+            3.722977263525825,
+            5.810443590310869
+        ],
+        [
+            4.838388220267316,
+            6.218318111432267
+        ]
+    ],
+    "shortest_path_names": [
+        "Financial Center",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i32",
+        "i40",
+        "National Museum"
+    ],
+    "shortest_path_landmarks": [
+        "Financial Center",
+        "National Museum"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i23",
+            "i24",
+            "i25",
+            "i32",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i23",
+            "i24",
+            "i31",
+            "i32",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i23",
+            "i30",
+            "i31",
+            "i32",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i29",
+            "i30",
+            "i31",
+            "i32",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i29",
+            "i30",
+            "i31",
+            "i32",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i38",
+            "i30",
+            "i31",
+            "i32",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i23",
+            "i24",
+            "i31",
+            "i39",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i23",
+            "i30",
+            "i31",
+            "i39",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i20",
+            "i21",
+            "i22",
+            "i29",
+            "i30",
+            "i31",
+            "i39",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i29",
+            "i30",
+            "i31",
+            "i39",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i38",
+            "i30",
+            "i31",
+            "i39",
+            "i40",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i38",
+            "i48",
+            "Main Station",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i47",
+            "i48",
+            "Main Station",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "Main Station",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i45",
+            "i46",
+            "i47",
+            "i48",
+            "Main Station",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i38",
+            "i48",
+            "i56",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "Fire Station",
+            "i47",
+            "i48",
+            "i56",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i37",
+            "i46",
+            "i47",
+            "i48",
+            "i56",
+            "i57",
+            "i58",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "i36",
+            "i45",
+            "i46",
+            "i47",
+            "i48",
+            "i56",
+            "i57",
+            "i58",
+            "National Museum"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "Main Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "Main Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Main Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Main Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "Fire Station",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ],
+        [
+            "Financial Center",
+            "National Museum"
+        ]
+    ],
+    "num_equivalent_paths": 19,
+    "path_length": 9
+}

@@ -1,0 +1,151 @@
+{
+    "city_id": 98,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "City Hall": [
+            1.9948849011602865,
+            4.700812740790091
+        ],
+        "Police HQ": [
+            3.1457524007628006,
+            5.7584465949106045
+        ],
+        "General Hospital": [
+            3.988311472542571,
+            8.153371246302624
+        ],
+        "Shopping Mall": [
+            1.9932962504609115,
+            3.0711653512826866
+        ],
+        "Fire Station": [
+            3.037929858626248,
+            0.9318359018010796
+        ],
+        "Stadium": [
+            8.024310328700645,
+            4.806702844291669
+        ],
+        "University": [
+            4.124041854617113,
+            1.8024583562985323
+        ],
+        "Financial Center": [
+            7.116889847368896,
+            4.1678414945060425
+        ],
+        "National Museum": [
+            5.001847502709026,
+            4.138031807492651
+        ],
+        "Main Station": [
+            4.271233904070715,
+            7.057369366615589
+        ]
+    },
+    "start": "Main Station",
+    "end": "Stadium",
+    "shortest_path_nodes": [
+        [
+            4.271233904070715,
+            7.057369366615589
+        ],
+        [
+            4.089318559274696,
+            6.156312107035094
+        ],
+        [
+            5.2644954806717505,
+            6.197907243283169
+        ],
+        [
+            5.806431238774705,
+            6.099438658203485
+        ],
+        [
+            7.262607357756841,
+            5.805925004976101
+        ],
+        [
+            8.219580138586881,
+            6.041233968903195
+        ],
+        [
+            8.024310328700645,
+            4.806702844291669
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i39",
+        "i46",
+        "i56",
+        "i65",
+        "i74",
+        "Stadium"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Stadium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i39",
+            "i46",
+            "i56",
+            "i65",
+            "i74",
+            "Stadium"
+        ],
+        [
+            "Main Station",
+            "i47",
+            "i46",
+            "i56",
+            "i65",
+            "i74",
+            "Stadium"
+        ],
+        [
+            "Main Station",
+            "i47",
+            "i57",
+            "i56",
+            "i65",
+            "i74",
+            "Stadium"
+        ],
+        [
+            "Main Station",
+            "i47",
+            "i57",
+            "i66",
+            "i65",
+            "i74",
+            "Stadium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Stadium"
+        ],
+        [
+            "Main Station",
+            "Stadium"
+        ],
+        [
+            "Main Station",
+            "Stadium"
+        ],
+        [
+            "Main Station",
+            "Stadium"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 6
+}

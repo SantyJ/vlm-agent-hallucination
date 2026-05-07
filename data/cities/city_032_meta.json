@@ -1,0 +1,82 @@
+{
+    "city_id": 32,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Airport": [
+            5,
+            8
+        ],
+        "Financial Center": [
+            0,
+            1
+        ],
+        "Stadium": [
+            0,
+            0
+        ],
+        "Police HQ": [
+            7,
+            5
+        ],
+        "Fire Station": [
+            1,
+            8
+        ],
+        "Grand Park": [
+            5,
+            7
+        ],
+        "Zoo": [
+            8,
+            8
+        ],
+        "Central Library": [
+            2,
+            0
+        ],
+        "National Museum": [
+            1,
+            0
+        ],
+        "Shopping Mall": [
+            2,
+            2
+        ]
+    },
+    "start": "Financial Center",
+    "end": "Stadium",
+    "shortest_path_nodes": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "Financial Center",
+        "Stadium"
+    ],
+    "shortest_path_landmarks": [
+        "Financial Center",
+        "Stadium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Financial Center",
+            "Stadium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Financial Center",
+            "Stadium"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 1
+}

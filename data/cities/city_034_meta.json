@@ -1,0 +1,155 @@
+{
+    "city_id": 34,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Main Station": [
+            3,
+            1
+        ],
+        "National Museum": [
+            9,
+            7
+        ],
+        "Stadium": [
+            2,
+            4
+        ],
+        "Zoo": [
+            7,
+            5
+        ],
+        "Convention Center": [
+            4,
+            8
+        ],
+        "Police HQ": [
+            4,
+            6
+        ],
+        "Airport": [
+            5,
+            4
+        ],
+        "Tech Hub": [
+            5,
+            9
+        ],
+        "Aquarium": [
+            3,
+            2
+        ],
+        "University": [
+            1,
+            8
+        ]
+    },
+    "start": "Zoo",
+    "end": "National Museum",
+    "shortest_path_nodes": [
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            9,
+            6
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "shortest_path_names": [
+        "Zoo",
+        "i77",
+        "i87",
+        "i88",
+        "National Museum"
+    ],
+    "shortest_path_landmarks": [
+        "Zoo",
+        "National Museum"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Zoo",
+            "i77",
+            "i87",
+            "i88",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "i77",
+            "i78",
+            "i88",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "i68",
+            "i78",
+            "i88",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "i77",
+            "i78",
+            "i79",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "i68",
+            "i78",
+            "i79",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "i68",
+            "i69",
+            "i79",
+            "National Museum"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Zoo",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "National Museum"
+        ],
+        [
+            "Zoo",
+            "National Museum"
+        ]
+    ],
+    "num_equivalent_paths": 6,
+    "path_length": 4
+}

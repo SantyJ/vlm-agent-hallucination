@@ -1,0 +1,82 @@
+{
+    "city_id": 52,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Grand Park": [
+            3,
+            3
+        ],
+        "Fire Station": [
+            5,
+            4
+        ],
+        "Zoo": [
+            8,
+            6
+        ],
+        "Harbor": [
+            0,
+            2
+        ],
+        "Police HQ": [
+            3,
+            9
+        ],
+        "University": [
+            0,
+            0
+        ],
+        "Shopping Mall": [
+            7,
+            0
+        ],
+        "Central Library": [
+            3,
+            2
+        ],
+        "Stadium": [
+            8,
+            1
+        ],
+        "National Museum": [
+            8,
+            9
+        ]
+    },
+    "start": "Grand Park",
+    "end": "Central Library",
+    "shortest_path_nodes": [
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "Grand Park",
+        "Central Library"
+    ],
+    "shortest_path_landmarks": [
+        "Grand Park",
+        "Central Library"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Grand Park",
+            "Central Library"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Grand Park",
+            "Central Library"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 1
+}

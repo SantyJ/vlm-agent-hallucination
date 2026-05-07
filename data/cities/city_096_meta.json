@@ -1,0 +1,167 @@
+{
+    "city_id": 96,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Fire Station": [
+            4.0863957532628215,
+            3.023908221343948
+        ],
+        "Grand Park": [
+            8.912539679866956,
+            6.297613997524694
+        ],
+        "Harbor": [
+            3.0496476044084075,
+            0.07796046086027042
+        ],
+        "City Hall": [
+            2.9414332039385997,
+            3.9250568588164176
+        ],
+        "General Hospital": [
+            7.069843801510005,
+            2.851352641993643
+        ],
+        "Central Library": [
+            7.984670318519269,
+            8.97819706946974
+        ],
+        "Airport": [
+            0.0736363300086667,
+            9.217973922866753
+        ],
+        "Convention Center": [
+            9.182872421382136,
+            2.109945422063288
+        ],
+        "Shopping Mall": [
+            2.9058858286396902,
+            7.743937457933132
+        ],
+        "Main Station": [
+            9.016197094781088,
+            6.756759232416238
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Convention Center",
+    "shortest_path_nodes": [
+        [
+            4.0863957532628215,
+            3.023908221343948
+        ],
+        [
+            4.077676818852124,
+            2.1685907682410392
+        ],
+        [
+            5.280191382349482,
+            2.15030471928995
+        ],
+        [
+            5.981400635899597,
+            1.9216165251087614
+        ],
+        [
+            6.973400885156113,
+            2.1399927191154635
+        ],
+        [
+            7.998707069124382,
+            1.7000005274279988
+        ],
+        [
+            9.182872421382136,
+            2.109945422063288
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i37",
+        "i46",
+        "i56",
+        "i66",
+        "i75",
+        "Convention Center"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Convention Center"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i37",
+            "i46",
+            "i56",
+            "i66",
+            "i75",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "i47",
+            "i57",
+            "i56",
+            "i66",
+            "i75",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "i47",
+            "i57",
+            "General Hospital",
+            "i66",
+            "i75",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "i47",
+            "i57",
+            "General Hospital",
+            "i76",
+            "i75",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "i47",
+            "i57",
+            "General Hospital",
+            "i76",
+            "i83",
+            "Convention Center"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Convention Center"
+        ],
+        [
+            "Fire Station",
+            "General Hospital",
+            "Convention Center"
+        ]
+    ],
+    "num_equivalent_paths": 5,
+    "path_length": 6
+}

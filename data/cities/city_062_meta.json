@@ -1,0 +1,114 @@
+{
+    "city_id": 62,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Grand Park": [
+            1,
+            4
+        ],
+        "National Museum": [
+            2,
+            3
+        ],
+        "Airport": [
+            4,
+            2
+        ],
+        "Main Station": [
+            9,
+            3
+        ],
+        "City Hall": [
+            7,
+            9
+        ],
+        "General Hospital": [
+            7,
+            1
+        ],
+        "Harbor": [
+            8,
+            0
+        ],
+        "Fire Station": [
+            1,
+            1
+        ],
+        "Police HQ": [
+            0,
+            8
+        ],
+        "University": [
+            3,
+            4
+        ]
+    },
+    "start": "Airport",
+    "end": "University",
+    "shortest_path_nodes": [
+        [
+            4,
+            2
+        ],
+        [
+            3,
+            2
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "Airport",
+        "i29",
+        "i30",
+        "University"
+    ],
+    "shortest_path_landmarks": [
+        "Airport",
+        "University"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Airport",
+            "i29",
+            "i30",
+            "University"
+        ],
+        [
+            "Airport",
+            "i38",
+            "i30",
+            "University"
+        ],
+        [
+            "Airport",
+            "i38",
+            "i39",
+            "University"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Airport",
+            "University"
+        ],
+        [
+            "Airport",
+            "University"
+        ],
+        [
+            "Airport",
+            "University"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 3
+}

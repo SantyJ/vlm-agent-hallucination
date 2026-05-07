@@ -1,0 +1,306 @@
+{
+    "city_id": 21,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Aquarium": [
+            1,
+            9
+        ],
+        "University": [
+            7,
+            3
+        ],
+        "Main Station": [
+            4,
+            8
+        ],
+        "Financial Center": [
+            4,
+            3
+        ],
+        "Central Library": [
+            8,
+            4
+        ],
+        "National Museum": [
+            3,
+            7
+        ],
+        "Police HQ": [
+            2,
+            4
+        ],
+        "General Hospital": [
+            4,
+            5
+        ],
+        "City Hall": [
+            4,
+            1
+        ],
+        "Shopping Mall": [
+            4,
+            4
+        ]
+    },
+    "start": "Main Station",
+    "end": "Police HQ",
+    "shortest_path_nodes": [
+        [
+            4,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i36",
+        "i27",
+        "i26",
+        "i25",
+        "i24",
+        "Police HQ"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Police HQ"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i36",
+            "i27",
+            "i26",
+            "i25",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i36",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "National Museum",
+            "i26",
+            "i25",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i36",
+            "National Museum",
+            "i35",
+            "i25",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "National Museum",
+            "i35",
+            "i25",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i35",
+            "i25",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i36",
+            "National Museum",
+            "i35",
+            "i34",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "National Museum",
+            "i35",
+            "i34",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i35",
+            "i34",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "General Hospital",
+            "i34",
+            "i24",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i36",
+            "National Museum",
+            "i35",
+            "i34",
+            "i33",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "National Museum",
+            "i35",
+            "i34",
+            "i33",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "i35",
+            "i34",
+            "i33",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "General Hospital",
+            "i34",
+            "i33",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "i41",
+            "i40",
+            "General Hospital",
+            "Shopping Mall",
+            "i33",
+            "Police HQ"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "General Hospital",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "General Hospital",
+            "Police HQ"
+        ],
+        [
+            "Main Station",
+            "General Hospital",
+            "Shopping Mall",
+            "Police HQ"
+        ]
+    ],
+    "num_equivalent_paths": 15,
+    "path_length": 6
+}

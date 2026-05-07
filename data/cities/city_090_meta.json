@@ -1,0 +1,135 @@
+{
+    "city_id": 90,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Convention Center": [
+            5.9430678985094,
+            6.7966279590229295
+        ],
+        "Zoo": [
+            0.7262085486700449,
+            2.9091621414293587
+        ],
+        "Airport": [
+            4.129148131512003,
+            3.9930077591407533
+        ],
+        "Harbor": [
+            2.2271219415963164,
+            3.114015270824461
+        ],
+        "Central Library": [
+            2.1499268959429347,
+            5.967027042805276
+        ],
+        "City Hall": [
+            7.1211391635353145,
+            3.8099839492525467
+        ],
+        "Police HQ": [
+            7.946662873571651,
+            8.772536312078676
+        ],
+        "Main Station": [
+            1.0955429344059353,
+            1.7821619922551197
+        ],
+        "Grand Park": [
+            2.997013195702287,
+            5.15524957679143
+        ],
+        "University": [
+            6.1565612508932865,
+            4.018757284168897
+        ]
+    },
+    "start": "Airport",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            4.129148131512003,
+            3.9930077591407533
+        ],
+        [
+            4.099542690577385,
+            3.2206935600874194
+        ],
+        [
+            2.7363441049563964,
+            2.8867204882003534
+        ],
+        [
+            2.2271219415963164,
+            3.114015270824461
+        ],
+        [
+            0.7262085486700449,
+            2.9091621414293587
+        ],
+        [
+            1.0955429344059353,
+            1.7821619922551197
+        ]
+    ],
+    "shortest_path_names": [
+        "Airport",
+        "i38",
+        "i29",
+        "Harbor",
+        "Zoo",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "Airport",
+        "Harbor",
+        "Zoo",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Airport",
+            "i38",
+            "i29",
+            "Harbor",
+            "Zoo",
+            "Main Station"
+        ],
+        [
+            "Airport",
+            "i38",
+            "i29",
+            "Harbor",
+            "i20",
+            "Main Station"
+        ],
+        [
+            "Airport",
+            "i38",
+            "i29",
+            "i28",
+            "i20",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Airport",
+            "Harbor",
+            "Zoo",
+            "Main Station"
+        ],
+        [
+            "Airport",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "Airport",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 5
+}

@@ -1,0 +1,116 @@
+{
+    "city_id": 2,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Grand Park": [
+            1,
+            3
+        ],
+        "Zoo": [
+            6,
+            0
+        ],
+        "Main Station": [
+            6,
+            1
+        ],
+        "Convention Center": [
+            2,
+            5
+        ],
+        "Central Library": [
+            0,
+            2
+        ],
+        "City Hall": [
+            6,
+            3
+        ],
+        "Police HQ": [
+            2,
+            3
+        ],
+        "Fire Station": [
+            1,
+            4
+        ],
+        "Shopping Mall": [
+            2,
+            1
+        ],
+        "Harbor": [
+            8,
+            9
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Central Library",
+    "shortest_path_nodes": [
+        [
+            1,
+            4
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i04",
+        "i03",
+        "Central Library"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Central Library"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i04",
+            "i03",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Grand Park",
+            "i03",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Grand Park",
+            "i12",
+            "Central Library"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Grand Park",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Grand Park",
+            "Central Library"
+        ]
+    ],
+    "num_equivalent_paths": 3,
+    "path_length": 3
+}

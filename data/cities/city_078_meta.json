@@ -1,0 +1,223 @@
+{
+    "city_id": 78,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            8,
+            4
+        ],
+        "Tech Hub": [
+            8,
+            2
+        ],
+        "Convention Center": [
+            3,
+            8
+        ],
+        "Central Library": [
+            0,
+            2
+        ],
+        "Stadium": [
+            6,
+            9
+        ],
+        "Police HQ": [
+            6,
+            5
+        ],
+        "University": [
+            9,
+            9
+        ],
+        "Zoo": [
+            8,
+            0
+        ],
+        "Grand Park": [
+            2,
+            9
+        ],
+        "Harbor": [
+            7,
+            5
+        ]
+    },
+    "start": "Police HQ",
+    "end": "Tech Hub",
+    "shortest_path_nodes": [
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            3
+        ],
+        [
+            8,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "Police HQ",
+        "Harbor",
+        "i77",
+        "City Hall",
+        "i76",
+        "Tech Hub"
+    ],
+    "shortest_path_landmarks": [
+        "Police HQ",
+        "Harbor",
+        "City Hall",
+        "Tech Hub"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Police HQ",
+            "Harbor",
+            "i77",
+            "City Hall",
+            "i76",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Harbor",
+            "i70",
+            "City Hall",
+            "i76",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "i62",
+            "i70",
+            "City Hall",
+            "i76",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Harbor",
+            "i70",
+            "i69",
+            "i76",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "i62",
+            "i70",
+            "i69",
+            "i76",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "i62",
+            "i61",
+            "i69",
+            "i76",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Harbor",
+            "i70",
+            "i69",
+            "i68",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "i62",
+            "i70",
+            "i69",
+            "i68",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "i62",
+            "i61",
+            "i69",
+            "i68",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "i62",
+            "i61",
+            "i60",
+            "i68",
+            "Tech Hub"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Police HQ",
+            "Harbor",
+            "City Hall",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Harbor",
+            "City Hall",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "City Hall",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Harbor",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Harbor",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Tech Hub"
+        ],
+        [
+            "Police HQ",
+            "Tech Hub"
+        ]
+    ],
+    "num_equivalent_paths": 10,
+    "path_length": 5
+}

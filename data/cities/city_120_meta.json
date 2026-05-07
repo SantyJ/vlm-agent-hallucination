@@ -1,0 +1,142 @@
+{
+    "city_id": 120,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 3,
+    "landmarks": {
+        "University": [
+            1.1694281918546134,
+            3.7915643939347503
+        ],
+        "Financial Center": [
+            6.095916036279898,
+            2.9102072456041808
+        ],
+        "Airport": [
+            4.009632064246714,
+            5.083956925766261
+        ],
+        "Harbor": [
+            5.236485843739134,
+            1.069987364096562
+        ],
+        "Grand Park": [
+            8.21007663596631,
+            8.812734599017489
+        ],
+        "City Hall": [
+            7.912962821244621,
+            7.899371697323471
+        ],
+        "Shopping Mall": [
+            2.183567391034727,
+            9.150974550139354
+        ],
+        "General Hospital": [
+            7.930337254910374,
+            -0.0697779511623485
+        ],
+        "Zoo": [
+            6.0418282906626395,
+            3.9748626247698136
+        ],
+        "Fire Station": [
+            3.7530957354448997,
+            5.786185779670649
+        ]
+    },
+    "start": "Financial Center",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            6.095916036279898,
+            2.9102072456041808
+        ],
+        [
+            5.769433308288038,
+            2.2845420854624843
+        ],
+        [
+            5.873876599056026,
+            1.2597681434435362
+        ],
+        [
+            6.976680905346034,
+            1.029215906793834
+        ],
+        [
+            7.022307898583347,
+            -0.028373676527465086
+        ],
+        [
+            7.930337254910374,
+            -0.0697779511623485
+        ]
+    ],
+    "shortest_path_names": [
+        "Financial Center",
+        "i57",
+        "i56",
+        "i64",
+        "i63",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Financial Center",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Financial Center",
+            "i57",
+            "i56",
+            "i64",
+            "i63",
+            "General Hospital"
+        ],
+        [
+            "Financial Center",
+            "i57",
+            "i65",
+            "i64",
+            "i63",
+            "General Hospital"
+        ],
+        [
+            "Financial Center",
+            "i57",
+            "i56",
+            "i64",
+            "i73",
+            "General Hospital"
+        ],
+        [
+            "Financial Center",
+            "i57",
+            "i65",
+            "i64",
+            "i73",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Financial Center",
+            "General Hospital"
+        ],
+        [
+            "Financial Center",
+            "General Hospital"
+        ],
+        [
+            "Financial Center",
+            "General Hospital"
+        ],
+        [
+            "Financial Center",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 4,
+    "path_length": 5
+}

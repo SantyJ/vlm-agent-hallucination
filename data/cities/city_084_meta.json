@@ -1,0 +1,88 @@
+{
+    "city_id": 84,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 5,
+    "landmarks": {
+        "Main Station": [
+            0.8506733591249669,
+            2.1040278313924032
+        ],
+        "Aquarium": [
+            5.932446783028362,
+            2.213658499361206
+        ],
+        "Grand Park": [
+            0.20874054020466554,
+            1.8528838776624983
+        ],
+        "Zoo": [
+            4.076750820119182,
+            3.71652785088335
+        ],
+        "Harbor": [
+            9.221392952913853,
+            1.165303933123613
+        ],
+        "Convention Center": [
+            7.714890130877067,
+            3.1730384598484798
+        ],
+        "Airport": [
+            7.8623163695787515,
+            0.2472311575573775
+        ],
+        "Financial Center": [
+            1.8239918157421389,
+            4.120287579431737
+        ],
+        "Police HQ": [
+            6.252633800285923,
+            0.7874375871113364
+        ],
+        "General Hospital": [
+            2.2084279075412767,
+            8.728542933417014
+        ]
+    },
+    "start": "Financial Center",
+    "end": "Zoo",
+    "shortest_path_nodes": [
+        [
+            1.8239918157421389,
+            4.120287579431737
+        ],
+        [
+            2.8353810823193832,
+            3.9693740779425952
+        ],
+        [
+            4.076750820119182,
+            3.71652785088335
+        ]
+    ],
+    "shortest_path_names": [
+        "Financial Center",
+        "i29",
+        "Zoo"
+    ],
+    "shortest_path_landmarks": [
+        "Financial Center",
+        "Zoo"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Financial Center",
+            "i29",
+            "Zoo"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Financial Center",
+            "Zoo"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

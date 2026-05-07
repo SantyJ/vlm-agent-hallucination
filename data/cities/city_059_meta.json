@@ -1,0 +1,2286 @@
+{
+    "city_id": 59,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Tech Hub": [
+            7,
+            5
+        ],
+        "Fire Station": [
+            8,
+            4
+        ],
+        "University": [
+            6,
+            8
+        ],
+        "General Hospital": [
+            9,
+            8
+        ],
+        "Central Library": [
+            0,
+            5
+        ],
+        "Convention Center": [
+            5,
+            3
+        ],
+        "Grand Park": [
+            6,
+            4
+        ],
+        "Zoo": [
+            4,
+            0
+        ],
+        "Aquarium": [
+            2,
+            1
+        ],
+        "City Hall": [
+            1,
+            1
+        ]
+    },
+    "start": "Convention Center",
+    "end": "General Hospital",
+    "shortest_path_nodes": [
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            8,
+            3
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            9,
+            6
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i59",
+        "i67",
+        "i76",
+        "i85",
+        "i86",
+        "i87",
+        "i88",
+        "i89",
+        "General Hospital"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "General Hospital"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i76",
+            "i85",
+            "i86",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i76",
+            "Fire Station",
+            "i86",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Fire Station",
+            "i86",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i86",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i86",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i76",
+            "Fire Station",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i87",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i76",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i69",
+            "i78",
+            "i88",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i76",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "i62",
+            "i70",
+            "i79",
+            "i89",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i76",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Fire Station",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i77",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i69",
+            "i78",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i69",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i62",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "i62",
+            "i70",
+            "i79",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "i67",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i68",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "Tech Hub",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i69",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i62",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i62",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "i62",
+            "i70",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i59",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "University",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "Grand Park",
+            "i60",
+            "i61",
+            "i62",
+            "University",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i60",
+            "i61",
+            "i62",
+            "University",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i61",
+            "i62",
+            "University",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "i62",
+            "University",
+            "i71",
+            "i80",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "i54",
+            "University",
+            "i71",
+            "i80",
+            "General Hospital"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Fire Station",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Tech Hub",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "University",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "Grand Park",
+            "University",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "General Hospital"
+        ],
+        [
+            "Convention Center",
+            "University",
+            "General Hospital"
+        ]
+    ],
+    "num_equivalent_paths": 126,
+    "path_length": 9
+}

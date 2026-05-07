@@ -1,0 +1,183 @@
+{
+    "city_id": 76,
+    "complexity_level": 2,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Harbor": [
+            0,
+            6
+        ],
+        "General Hospital": [
+            0,
+            5
+        ],
+        "City Hall": [
+            1,
+            1
+        ],
+        "National Museum": [
+            8,
+            9
+        ],
+        "Zoo": [
+            1,
+            9
+        ],
+        "Convention Center": [
+            1,
+            6
+        ],
+        "Airport": [
+            1,
+            0
+        ],
+        "Fire Station": [
+            7,
+            1
+        ],
+        "Stadium": [
+            8,
+            4
+        ],
+        "Tech Hub": [
+            7,
+            5
+        ]
+    },
+    "start": "General Hospital",
+    "end": "Airport",
+    "shortest_path_nodes": [
+        [
+            0,
+            5
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            0
+        ]
+    ],
+    "shortest_path_names": [
+        "General Hospital",
+        "i12",
+        "i11",
+        "i10",
+        "i09",
+        "City Hall",
+        "Airport"
+    ],
+    "shortest_path_landmarks": [
+        "General Hospital",
+        "City Hall",
+        "Airport"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "General Hospital",
+            "i12",
+            "i11",
+            "i10",
+            "i09",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "i05",
+            "i11",
+            "i10",
+            "i09",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "i05",
+            "i04",
+            "i10",
+            "i09",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "i05",
+            "i04",
+            "i03",
+            "i09",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "i05",
+            "i04",
+            "i03",
+            "i02",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "i05",
+            "i04",
+            "i03",
+            "i02",
+            "i01",
+            "Airport"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "General Hospital",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "City Hall",
+            "Airport"
+        ],
+        [
+            "General Hospital",
+            "Airport"
+        ]
+    ],
+    "num_equivalent_paths": 6,
+    "path_length": 6
+}

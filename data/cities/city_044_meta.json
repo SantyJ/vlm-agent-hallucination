@@ -1,0 +1,369 @@
+{
+    "city_id": 44,
+    "complexity_level": 2,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Convention Center": [
+            9,
+            1
+        ],
+        "University": [
+            2,
+            3
+        ],
+        "National Museum": [
+            1,
+            8
+        ],
+        "Financial Center": [
+            0,
+            5
+        ],
+        "Shopping Mall": [
+            5,
+            3
+        ],
+        "Grand Park": [
+            2,
+            5
+        ],
+        "City Hall": [
+            8,
+            2
+        ],
+        "Aquarium": [
+            8,
+            6
+        ],
+        "Harbor": [
+            5,
+            8
+        ],
+        "Tech Hub": [
+            8,
+            5
+        ]
+    },
+    "start": "Tech Hub",
+    "end": "Harbor",
+    "shortest_path_nodes": [
+        [
+            8,
+            5
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Tech Hub",
+        "i70",
+        "i60",
+        "i51",
+        "i52",
+        "i53",
+        "Harbor"
+    ],
+    "shortest_path_landmarks": [
+        "Tech Hub",
+        "Harbor"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Tech Hub",
+            "i70",
+            "i60",
+            "i51",
+            "i52",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i60",
+            "i61",
+            "i52",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i71",
+            "i61",
+            "i52",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i71",
+            "i61",
+            "i52",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i60",
+            "i61",
+            "i62",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i71",
+            "i61",
+            "i62",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i71",
+            "i61",
+            "i62",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i71",
+            "i72",
+            "i62",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i71",
+            "i72",
+            "i62",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i79",
+            "i72",
+            "i62",
+            "i53",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i60",
+            "i61",
+            "i62",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i71",
+            "i61",
+            "i62",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i71",
+            "i61",
+            "i62",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i71",
+            "i72",
+            "i62",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i71",
+            "i72",
+            "i62",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i79",
+            "i72",
+            "i62",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "i70",
+            "i71",
+            "i72",
+            "i73",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i71",
+            "i72",
+            "i73",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i79",
+            "i72",
+            "i73",
+            "i63",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "i79",
+            "i80",
+            "i73",
+            "i63",
+            "Harbor"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ],
+        [
+            "Tech Hub",
+            "Aquarium",
+            "Harbor"
+        ]
+    ],
+    "num_equivalent_paths": 20,
+    "path_length": 6
+}

@@ -1,0 +1,88 @@
+{
+    "city_id": 28,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "University": [
+            8,
+            8
+        ],
+        "General Hospital": [
+            9,
+            3
+        ],
+        "National Museum": [
+            7,
+            1
+        ],
+        "Harbor": [
+            4,
+            8
+        ],
+        "Shopping Mall": [
+            0,
+            3
+        ],
+        "Tech Hub": [
+            8,
+            6
+        ],
+        "Aquarium": [
+            6,
+            7
+        ],
+        "Convention Center": [
+            9,
+            1
+        ],
+        "Stadium": [
+            9,
+            2
+        ],
+        "Airport": [
+            3,
+            0
+        ]
+    },
+    "start": "University",
+    "end": "Tech Hub",
+    "shortest_path_nodes": [
+        [
+            8,
+            8
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "shortest_path_names": [
+        "University",
+        "i82",
+        "Tech Hub"
+    ],
+    "shortest_path_landmarks": [
+        "University",
+        "Tech Hub"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "University",
+            "i82",
+            "Tech Hub"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "University",
+            "Tech Hub"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

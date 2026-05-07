@@ -1,0 +1,88 @@
+{
+    "city_id": 118,
+    "complexity_level": 3,
+    "water_type": "lakes",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "National Museum": [
+            0.8470663313198589,
+            9.235998908563346
+        ],
+        "Fire Station": [
+            3.708334314460475,
+            3.0088527175357793
+        ],
+        "Airport": [
+            0.9895435783361635,
+            0.7213349078937412
+        ],
+        "Stadium": [
+            8.024333659758124,
+            3.263278198892656
+        ],
+        "Main Station": [
+            4.898188557547023,
+            3.805414049062887
+        ],
+        "Police HQ": [
+            5.944837184002601,
+            2.7370382986764015
+        ],
+        "Central Library": [
+            6.294242852517448,
+            4.9614209547700945
+        ],
+        "Aquarium": [
+            7.713529344897807,
+            1.8926487997000139
+        ],
+        "General Hospital": [
+            -0.29023666650966445,
+            2.7204205111238196
+        ],
+        "University": [
+            3.0126327495655416,
+            8.774118595475095
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            3.708334314460475,
+            3.0088527175357793
+        ],
+        [
+            3.7401219172060474,
+            3.9616936647119307
+        ],
+        [
+            4.898188557547023,
+            3.805414049062887
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i39",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i39",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

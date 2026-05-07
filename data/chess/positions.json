@@ -1,0 +1,302 @@
+[
+  {
+    "position_id": 1,
+    "fen": "r2qk1nr/4pp1p/4b3/p1pp1np1/4BbPP/PpN1P1QR/RPPPK3/2B3N1 w kq - 0 18",
+    "best_move_uci": "e4f5",
+    "best_move_san": "Bxf5",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "f5",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 2,
+    "fen": "r1b1kb1r/p3pp1p/1N1pn3/Ppp3p1/4B3/4Pn1q/1PPP2PP/1RBQK2R w kq - 0 17",
+    "best_move_uci": "e4f3",
+    "best_move_san": "Bxf3",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "f3",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 3,
+    "fen": "r1b2b1r/p1pnkpp1/1p6/3Pp2p/3P2n1/1Pq3PB/PBPN1P1P/RN1QK2R w KQ - 3 12",
+    "best_move_uci": "b2c3",
+    "best_move_san": "Bxc3",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "c3",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 4,
+    "fen": "rn5r/p6p/B1kbbpP1/2ppp3/1P1q2Q1/P1PnP3/R2N4/2B2KN1 w - - 1 20",
+    "best_move_uci": "g4d4",
+    "best_move_san": "Qxd4",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "d4",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 5,
+    "fen": "1r1k1b1r/p3p2p/2n2ppq/PppB4/4PP2/2PP1Q2/1P1NK1PP/R1B3NR w - - 3 15",
+    "best_move_uci": "d5c6",
+    "best_move_san": "Bxc6",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "c6",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 6,
+    "fen": "rnb1k1nr/2p1q2p/p2p2p1/1p2p3/1bP4N/2NPBBp1/P3PP1P/R2QK1R1 w Qkq - 0 13",
+    "best_move_uci": "f3a8",
+    "best_move_san": "Bxa8",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "a8",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 7,
+    "fen": "rq5r/p4pbp/np2k3/2pp2pn/P3NPK1/3PP3/1PP2NPP/R1B1QB1R w - - 5 20",
+    "best_move_uci": "g4h5",
+    "best_move_san": "Kxh5",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "h5",
+    "attacker_piece": "King"
+  },
+  {
+    "position_id": 8,
+    "fen": "r1bknbnr/pp2p3/7p/q1pp1ppP/2B1PP2/PP6/1BPP2PR/RN1QK1N1 w Q - 2 12",
+    "best_move_uci": "b2h8",
+    "best_move_san": "Bxh8",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "h8",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 9,
+    "fen": "Nr1q1bnr/ppp1p1p1/3p1k1B/5p1p/1n1N1P1P/2PP1bP1/4P3/R3KB1R w KQ - 1 16",
+    "best_move_uci": "d4f3",
+    "best_move_san": "Nxf3",
+    "capture_value": 3,
+    "victim_piece": "Bishop",
+    "victim_square": "f3",
+    "attacker_piece": "Knight"
+  },
+  {
+    "position_id": 10,
+    "fen": "r1b1k1r1/1pn2p1p/1Bppp2q/p3nNp1/Nb4PP/PQPP4/1P3P2/R3KB1R w KQq - 4 16",
+    "best_move_uci": "f5h6",
+    "best_move_san": "Nxh6",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "h6",
+    "attacker_piece": "Knight"
+  },
+  {
+    "position_id": 11,
+    "fen": "r1b1kbnr/2p3p1/p7/Np1p1pqp/1B1n1P1P/3P1R2/PPP1P1B1/R2QK1N1 w Qkq - 0 14",
+    "best_move_uci": "h4g5",
+    "best_move_san": "hxg5",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "g5",
+    "attacker_piece": "Pawn"
+  },
+  {
+    "position_id": 12,
+    "fen": "2bk2nr/1p4p1/P1pP1n2/4pp1p/Pr1p1P1P/2NPPQ2/3K2Pq/R1B2B1R w - - 6 23",
+    "best_move_uci": "h1h2",
+    "best_move_san": "Rxh2",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "h2",
+    "attacker_piece": "Rook"
+  },
+  {
+    "position_id": 13,
+    "fen": "1rb1q2r/1n1p1k1p/2p2bp1/pp1Pp3/4PPn1/NPP4P/P5P1/R1B1KB1R w - - 3 19",
+    "best_move_uci": "h3g4",
+    "best_move_san": "hxg4",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "g4",
+    "attacker_piece": "Pawn"
+  },
+  {
+    "position_id": 14,
+    "fen": "r1b1qbnr/p1pppk2/5p2/1p1N3p/Q1Pn4/4PpPB/PP1P3P/R1B1K1NR w - - 0 11",
+    "best_move_uci": "e3d4",
+    "best_move_san": "exd4",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "d4",
+    "attacker_piece": "Pawn"
+  },
+  {
+    "position_id": 15,
+    "fen": "r2q1b2/3bpp1r/Q1n1kn2/1pPp4/2BP3p/P1P1PP1p/6PP/RNB1K2R w - - 5 20",
+    "best_move_uci": "a6a8",
+    "best_move_san": "Qxa8",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "a8",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 16,
+    "fen": "2b2qn1/p1p2kbr/4rNp1/2ppn1Pp/PQ1p1B2/1P3B1N/R3PP1P/3K3R w - - 6 21",
+    "best_move_uci": "f6h7",
+    "best_move_san": "Nxh7",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "h7",
+    "attacker_piece": "Knight"
+  },
+  {
+    "position_id": 17,
+    "fen": "4n2Q/3kp2p/b1pp1p1b/rp1N4/2P5/PP1P1P2/4K1PP/2B4R w - - 3 25",
+    "best_move_uci": "h8e8",
+    "best_move_san": "Qxe8+",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "e8",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 18,
+    "fen": "r1bq1knr/1p6/7p/Q3pp2/1PppPpP1/2NP1N1B/P6P/R1B1K2R w KQ - 0 15",
+    "best_move_uci": "a5d8",
+    "best_move_san": "Qxd8+",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "d8",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 19,
+    "fen": "br1bk1nr/5p1Q/3qp3/p3n1pP/1p3N2/NPP1KPP1/P3P3/R1B2BR1 w k - 3 24",
+    "best_move_uci": "h7h8",
+    "best_move_san": "Qxh8",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "h8",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 20,
+    "fen": "rn1nkr2/p2bb2Q/1p4q1/2P1p1p1/1BPP4/N7/P3PP1P/3RK1NR w Kq - 0 18",
+    "best_move_uci": "h7g6",
+    "best_move_san": "Qxg6+",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "g6",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 21,
+    "fen": "r1b4r/N1pn1k2/Bp3npp/2Pp4/1P1bpp2/P2PP1q1/1B4P1/1R1K2N1 w - - 1 21",
+    "best_move_uci": "a7c8",
+    "best_move_san": "Nxc8",
+    "capture_value": 3,
+    "victim_piece": "Bishop",
+    "victim_square": "c8",
+    "attacker_piece": "Knight"
+  },
+  {
+    "position_id": 22,
+    "fen": "2r3nr/p3bkp1/1pb1pp2/nB2p2p/1pP2PPP/5N1R/P1QP4/R1B1K3 w - - 1 23",
+    "best_move_uci": "b5c6",
+    "best_move_san": "Bxc6",
+    "capture_value": 3,
+    "victim_piece": "Bishop",
+    "victim_square": "c6",
+    "attacker_piece": "Bishop"
+  },
+  {
+    "position_id": 23,
+    "fen": "4k1nr/1p3p2/n7/2p1p1pp/rP1pP1bP/3P2P1/1PKB1P1R/RN6 w - - 4 27",
+    "best_move_uci": "a1a4",
+    "best_move_san": "Rxa4",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "a4",
+    "attacker_piece": "Rook"
+  },
+  {
+    "position_id": 24,
+    "fen": "1rbk1bn1/pppp2p1/n3p2r/P6p/1PP5/3Pq3/3BQP1P/RN2KBR1 w Q - 2 16",
+    "best_move_uci": "e2e3",
+    "best_move_san": "Qxe3",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "e3",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 25,
+    "fen": "1rb1k1n1/p1pqbp2/3p2n1/1p4Q1/P4p2/2P2N1P/1P1PPKP1/RNB2B1R w - - 4 12",
+    "best_move_uci": "g5e7",
+    "best_move_san": "Qxe7+",
+    "capture_value": 3,
+    "victim_piece": "Bishop",
+    "victim_square": "e7",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 26,
+    "fen": "r2qkbnr/2p1p2p/3p4/pn4Q1/1P4bP/3BP2R/PP1P1PP1/RNB1K1N1 w Qkq - 3 12",
+    "best_move_uci": "g5g8",
+    "best_move_san": "Qxg8",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "g8",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 27,
+    "fen": "1nb1kb1r/r2p1p2/ppq1p1pp/2p1P3/PP3P2/N2Pn2P/R2K1Q2/2B2BNR w - - 1 21",
+    "best_move_uci": "f2e3",
+    "best_move_san": "Qxe3",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "e3",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 28,
+    "fen": "r3k1nr/pb1p1pb1/2n3Pp/1p4P1/3p2N1/P1pQ3P/1PP1PqB1/RN1KB2R w kq - 1 19",
+    "best_move_uci": "g4f2",
+    "best_move_san": "Nxf2",
+    "capture_value": 9,
+    "victim_piece": "Queen",
+    "victim_square": "f2",
+    "attacker_piece": "Knight"
+  },
+  {
+    "position_id": 29,
+    "fen": "r1b2knr/p4q2/n3p2p/3p2p1/Qppb1pPP/1B2PN2/P3KP2/RNB2R2 w - - 0 21",
+    "best_move_uci": "a4a6",
+    "best_move_san": "Qxa6",
+    "capture_value": 3,
+    "victim_piece": "Knight",
+    "victim_square": "a6",
+    "attacker_piece": "Queen"
+  },
+  {
+    "position_id": 30,
+    "fen": "1rb1q1nr/Qpp1nk1p/p2P2p1/5p2/PP3P2/B3pNPP/3PP3/bN2KBR1 w - - 1 17",
+    "best_move_uci": "a7b8",
+    "best_move_san": "Qxb8",
+    "capture_value": 5,
+    "victim_piece": "Rook",
+    "victim_square": "b8",
+    "attacker_piece": "Queen"
+  }
+]

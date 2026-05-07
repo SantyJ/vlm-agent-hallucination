@@ -1,0 +1,183 @@
+{
+    "city_id": 82,
+    "complexity_level": 3,
+    "water_type": "river",
+    "num_dead_ends": 2,
+    "landmarks": {
+        "Zoo": [
+            1.8303089735738924,
+            2.713147251265093
+        ],
+        "Harbor": [
+            8.974686158646701,
+            5.268819784566581
+        ],
+        "Police HQ": [
+            8.035842698133386,
+            4.1373486895924305
+        ],
+        "National Museum": [
+            6.895346465515522,
+            1.895306840477176
+        ],
+        "City Hall": [
+            9.117871678307562,
+            3.8271599761463087
+        ],
+        "Central Library": [
+            9.27023744774968,
+            3.2589152190870085
+        ],
+        "Main Station": [
+            5.806968066617415,
+            2.152663771733228
+        ],
+        "Stadium": [
+            2.2781218782691885,
+            1.0156642179447348
+        ],
+        "Grand Park": [
+            2.9499615940222808,
+            7.088702719260698
+        ],
+        "Airport": [
+            0.7434513338790905,
+            7.100487912224095
+        ]
+    },
+    "start": "Main Station",
+    "end": "Central Library",
+    "shortest_path_nodes": [
+        [
+            5.806968066617415,
+            2.152663771733228
+        ],
+        [
+            5.88026435634723,
+            0.9703431558008662
+        ],
+        [
+            6.891326919518662,
+            0.9712714265901254
+        ],
+        [
+            8.048098830258121,
+            0.8283010496871571
+        ],
+        [
+            7.961516774178893,
+            1.9855577791000338
+        ],
+        [
+            9.225373771365048,
+            2.219389776508228
+        ],
+        [
+            9.27023744774968,
+            3.2589152190870085
+        ]
+    ],
+    "shortest_path_names": [
+        "Main Station",
+        "i56",
+        "i65",
+        "i74",
+        "i75",
+        "i84",
+        "Central Library"
+    ],
+    "shortest_path_landmarks": [
+        "Main Station",
+        "Central Library"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Main Station",
+            "i56",
+            "i65",
+            "i74",
+            "i75",
+            "i84",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "i57",
+            "i66",
+            "i76",
+            "i75",
+            "i84",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "i66",
+            "i76",
+            "i75",
+            "i84",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "i56",
+            "i65",
+            "i74",
+            "i83",
+            "i84",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "i57",
+            "i66",
+            "i76",
+            "Police HQ",
+            "City Hall",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "i66",
+            "i76",
+            "Police HQ",
+            "City Hall",
+            "Central Library"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Main Station",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "Police HQ",
+            "City Hall",
+            "Central Library"
+        ],
+        [
+            "Main Station",
+            "National Museum",
+            "Police HQ",
+            "City Hall",
+            "Central Library"
+        ]
+    ],
+    "num_equivalent_paths": 6,
+    "path_length": 6
+}

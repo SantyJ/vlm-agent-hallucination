@@ -1,0 +1,712 @@
+{
+    "city_id": 39,
+    "complexity_level": 1,
+    "water_type": "river",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Main Station": [
+            7,
+            2
+        ],
+        "Harbor": [
+            7,
+            3
+        ],
+        "Stadium": [
+            9,
+            6
+        ],
+        "Financial Center": [
+            3,
+            1
+        ],
+        "National Museum": [
+            7,
+            6
+        ],
+        "Police HQ": [
+            5,
+            4
+        ],
+        "Tech Hub": [
+            8,
+            0
+        ],
+        "General Hospital": [
+            0,
+            4
+        ],
+        "Grand Park": [
+            2,
+            2
+        ],
+        "Central Library": [
+            1,
+            6
+        ]
+    },
+    "start": "General Hospital",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            0,
+            4
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            2
+        ]
+    ],
+    "shortest_path_names": [
+        "General Hospital",
+        "i14",
+        "i22",
+        "i31",
+        "i41",
+        "Police HQ",
+        "i60",
+        "i68",
+        "Harbor",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "General Hospital",
+        "Police HQ",
+        "Harbor",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "Police HQ",
+            "i60",
+            "i68",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "Police HQ",
+            "i60",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "Police HQ",
+            "i50",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "i40",
+            "i50",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "Police HQ",
+            "i60",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "Police HQ",
+            "i50",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "i40",
+            "i50",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i59",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "Police HQ",
+            "i50",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "i40",
+            "i50",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i30",
+            "i40",
+            "i50",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i50",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i41",
+            "i40",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i30",
+            "i40",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i21",
+            "i30",
+            "i40",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i21",
+            "i30",
+            "i40",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i31",
+            "i30",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i21",
+            "i30",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i21",
+            "i30",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i21",
+            "i30",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i22",
+            "i21",
+            "Grand Park",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i21",
+            "Grand Park",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i21",
+            "Grand Park",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i14",
+            "i13",
+            "i12",
+            "Grand Park",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i13",
+            "i12",
+            "Grand Park",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i04",
+            "i03",
+            "i12",
+            "Grand Park",
+            "i29",
+            "i39",
+            "i49",
+            "i58",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "General Hospital",
+            "Police HQ",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Police HQ",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Police HQ",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Harbor",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Police HQ",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Grand Park",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Grand Park",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Grand Park",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Grand Park",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Grand Park",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Grand Park",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 36,
+    "path_length": 9
+}

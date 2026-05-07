@@ -1,0 +1,202 @@
+{
+    "city_id": 117,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 3,
+    "landmarks": {
+        "Grand Park": [
+            4.7333855182619375,
+            6.299903870308105
+        ],
+        "University": [
+            2.9501960737666617,
+            4.74547395709454
+        ],
+        "Harbor": [
+            -0.10077475973270206,
+            4.845177176291005
+        ],
+        "Convention Center": [
+            4.196338424900647,
+            1.1799149488539395
+        ],
+        "Main Station": [
+            0.031403522471254275,
+            0.7047500997134484
+        ],
+        "Airport": [
+            9.242685436674844,
+            8.988446836606347
+        ],
+        "Stadium": [
+            9.23929347571611,
+            3.067745457758839
+        ],
+        "National Museum": [
+            7.730696842772143,
+            -0.1354794031433319
+        ],
+        "General Hospital": [
+            5.189507966623492,
+            3.0130307307551063
+        ],
+        "Tech Hub": [
+            0.8062687729087921,
+            5.282126428909314
+        ]
+    },
+    "start": "General Hospital",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            5.189507966623492,
+            3.0130307307551063
+        ],
+        [
+            3.869735351390239,
+            3.0965786428790265
+        ],
+        [
+            3.2176309185562486,
+            2.789162007342535
+        ],
+        [
+            2.1089727971963086,
+            2.700268175137536
+        ],
+        [
+            0.9845700123691652,
+            2.9701247879627504
+        ],
+        [
+            0.24637154508942977,
+            2.9033409956506775
+        ],
+        [
+            0.07047000983525853,
+            1.7931111380767424
+        ],
+        [
+            0.031403522471254275,
+            0.7047500997134484
+        ]
+    ],
+    "shortest_path_names": [
+        "General Hospital",
+        "i38",
+        "i30",
+        "i20",
+        "i11",
+        "i03",
+        "i02",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "General Hospital",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "General Hospital",
+            "i38",
+            "i30",
+            "i20",
+            "i11",
+            "i03",
+            "i02",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i38",
+            "i30",
+            "i20",
+            "i19",
+            "i10",
+            "i02",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i38",
+            "i30",
+            "i29",
+            "i19",
+            "i10",
+            "i02",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i47",
+            "i37",
+            "i29",
+            "i19",
+            "i10",
+            "i02",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i38",
+            "i30",
+            "i20",
+            "i19",
+            "i10",
+            "i09",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i38",
+            "i30",
+            "i29",
+            "i19",
+            "i10",
+            "i09",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i47",
+            "i37",
+            "i29",
+            "i19",
+            "i10",
+            "i09",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 7,
+    "path_length": 7
+}

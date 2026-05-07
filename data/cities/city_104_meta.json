@@ -1,0 +1,82 @@
+{
+    "city_id": 104,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 6,
+    "landmarks": {
+        "National Museum": [
+            2.7300981279886023,
+            5.236550320755221
+        ],
+        "Aquarium": [
+            1.8827780190941454,
+            6.284504986083682
+        ],
+        "Stadium": [
+            -0.2702632849844392,
+            1.030430458240219
+        ],
+        "City Hall": [
+            0.8196570050091849,
+            6.9964197779980255
+        ],
+        "Harbor": [
+            4.758709351402664,
+            8.910713333538066
+        ],
+        "Main Station": [
+            5.197740497760908,
+            1.0225959396356092
+        ],
+        "Financial Center": [
+            6.110455238508606,
+            4.73994152989757
+        ],
+        "University": [
+            5.966736547678021,
+            0.17060095919975243
+        ],
+        "Tech Hub": [
+            5.728747364024384,
+            3.164307011313909
+        ],
+        "Fire Station": [
+            0.791434109264444,
+            5.786670089728674
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Aquarium",
+    "shortest_path_nodes": [
+        [
+            0.791434109264444,
+            5.786670089728674
+        ],
+        [
+            1.8827780190941454,
+            6.284504986083682
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "Aquarium"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Aquarium"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "Aquarium"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Aquarium"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 1
+}

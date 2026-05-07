@@ -1,0 +1,88 @@
+{
+    "city_id": 37,
+    "complexity_level": 1,
+    "water_type": "none",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "City Hall": [
+            9,
+            0
+        ],
+        "Fire Station": [
+            5,
+            8
+        ],
+        "Central Library": [
+            1,
+            1
+        ],
+        "Convention Center": [
+            3,
+            5
+        ],
+        "University": [
+            1,
+            5
+        ],
+        "Shopping Mall": [
+            5,
+            9
+        ],
+        "Financial Center": [
+            3,
+            8
+        ],
+        "Stadium": [
+            7,
+            1
+        ],
+        "Grand Park": [
+            0,
+            4
+        ],
+        "Tech Hub": [
+            0,
+            6
+        ]
+    },
+    "start": "Convention Center",
+    "end": "University",
+    "shortest_path_nodes": [
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            1,
+            5
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i22",
+        "University"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "University"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i22",
+            "University"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "University"
+        ]
+    ],
+    "num_equivalent_paths": 1,
+    "path_length": 2
+}

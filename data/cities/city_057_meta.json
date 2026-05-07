@@ -1,0 +1,139 @@
+{
+    "city_id": 57,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Shopping Mall": [
+            0,
+            8
+        ],
+        "Main Station": [
+            6,
+            3
+        ],
+        "University": [
+            2,
+            1
+        ],
+        "Central Library": [
+            4,
+            0
+        ],
+        "General Hospital": [
+            5,
+            5
+        ],
+        "Harbor": [
+            1,
+            3
+        ],
+        "Zoo": [
+            7,
+            9
+        ],
+        "Grand Park": [
+            8,
+            8
+        ],
+        "Airport": [
+            9,
+            6
+        ],
+        "Fire Station": [
+            4,
+            2
+        ]
+    },
+    "start": "Grand Park",
+    "end": "Shopping Mall",
+    "shortest_path_nodes": [
+        [
+            8,
+            8
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Grand Park",
+        "i72",
+        "i62",
+        "i53",
+        "i44",
+        "i36",
+        "i26",
+        "i17",
+        "Shopping Mall"
+    ],
+    "shortest_path_landmarks": [
+        "Grand Park",
+        "Shopping Mall"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Grand Park",
+            "i72",
+            "i62",
+            "i53",
+            "i44",
+            "i36",
+            "i26",
+            "i17",
+            "Shopping Mall"
+        ],
+        [
+            "Grand Park",
+            "i72",
+            "i62",
+            "i53",
+            "i44",
+            "i35",
+            "i25",
+            "i16",
+            "Shopping Mall"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Grand Park",
+            "Shopping Mall"
+        ],
+        [
+            "Grand Park",
+            "Shopping Mall"
+        ]
+    ],
+    "num_equivalent_paths": 2,
+    "path_length": 8
+}

@@ -1,0 +1,205 @@
+{
+    "city_id": 16,
+    "complexity_level": 1,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Stadium": [
+            5,
+            3
+        ],
+        "Aquarium": [
+            3,
+            9
+        ],
+        "Convention Center": [
+            6,
+            2
+        ],
+        "Shopping Mall": [
+            8,
+            4
+        ],
+        "National Museum": [
+            2,
+            6
+        ],
+        "City Hall": [
+            5,
+            0
+        ],
+        "Tech Hub": [
+            4,
+            3
+        ],
+        "Grand Park": [
+            5,
+            8
+        ],
+        "Financial Center": [
+            8,
+            0
+        ],
+        "Airport": [
+            9,
+            9
+        ]
+    },
+    "start": "Convention Center",
+    "end": "Grand Park",
+    "shortest_path_nodes": [
+        [
+            6,
+            2
+        ],
+        [
+            5,
+            2
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Convention Center",
+        "i49",
+        "Stadium",
+        "i50",
+        "i51",
+        "i52",
+        "i53",
+        "Grand Park"
+    ],
+    "shortest_path_landmarks": [
+        "Convention Center",
+        "Stadium",
+        "Grand Park"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Convention Center",
+            "i49",
+            "Stadium",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "i57",
+            "Stadium",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "i57",
+            "i58",
+            "i50",
+            "i51",
+            "i52",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "i57",
+            "i58",
+            "i59",
+            "i51",
+            "i52",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "i57",
+            "i58",
+            "i59",
+            "i60",
+            "i52",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "i57",
+            "i58",
+            "i59",
+            "i60",
+            "i61",
+            "i53",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "i57",
+            "i58",
+            "i59",
+            "i60",
+            "i61",
+            "i62",
+            "Grand Park"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Convention Center",
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "Stadium",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "Grand Park"
+        ],
+        [
+            "Convention Center",
+            "Grand Park"
+        ]
+    ],
+    "num_equivalent_paths": 7,
+    "path_length": 7
+}

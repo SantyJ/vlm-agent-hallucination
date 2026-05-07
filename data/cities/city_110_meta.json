@@ -1,0 +1,157 @@
+{
+    "city_id": 110,
+    "complexity_level": 3,
+    "water_type": "none",
+    "num_dead_ends": 4,
+    "landmarks": {
+        "Tech Hub": [
+            6.837228100948278,
+            7.233103173010429
+        ],
+        "Airport": [
+            5.247586673022103,
+            4.288448446217215
+        ],
+        "Fire Station": [
+            7.746877584280643,
+            9.286604705110957
+        ],
+        "Main Station": [
+            7.838895725750475,
+            4.11759501518118
+        ],
+        "Harbor": [
+            -0.13549972727206455,
+            5.176046544222479
+        ],
+        "Grand Park": [
+            5.992781946376065,
+            7.187185641004355
+        ],
+        "Central Library": [
+            5.153653729835444,
+            5.925339170737374
+        ],
+        "General Hospital": [
+            3.7997773571357953,
+            4.780112468071902
+        ],
+        "Stadium": [
+            7.198536458627465,
+            8.902598577852716
+        ],
+        "Convention Center": [
+            8.158945661736926,
+            6.8479714800803935
+        ]
+    },
+    "start": "General Hospital",
+    "end": "Main Station",
+    "shortest_path_nodes": [
+        [
+            3.7997773571357953,
+            4.780112468071902
+        ],
+        [
+            4.283308692594345,
+            4.231017790412563
+        ],
+        [
+            5.247586673022103,
+            4.288448446217215
+        ],
+        [
+            6.052016677091169,
+            3.9274229374722855
+        ],
+        [
+            7.002021649429222,
+            3.873288876893877
+        ],
+        [
+            7.838895725750475,
+            4.11759501518118
+        ]
+    ],
+    "shortest_path_names": [
+        "General Hospital",
+        "i43",
+        "Airport",
+        "i60",
+        "i69",
+        "Main Station"
+    ],
+    "shortest_path_landmarks": [
+        "General Hospital",
+        "Airport",
+        "Main Station"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "General Hospital",
+            "i43",
+            "Airport",
+            "i60",
+            "i69",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i52",
+            "Airport",
+            "i60",
+            "i69",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i52",
+            "i61",
+            "i60",
+            "i69",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i52",
+            "i61",
+            "i70",
+            "i69",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "i52",
+            "i61",
+            "i70",
+            "i77",
+            "Main Station"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "General Hospital",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Airport",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ],
+        [
+            "General Hospital",
+            "Main Station"
+        ]
+    ],
+    "num_equivalent_paths": 5,
+    "path_length": 5
+}

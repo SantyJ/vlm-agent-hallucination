@@ -1,0 +1,259 @@
+{
+    "city_id": 48,
+    "complexity_level": 2,
+    "water_type": "lakes",
+    "num_dead_ends": 0,
+    "landmarks": {
+        "Aquarium": [
+            3,
+            1
+        ],
+        "Financial Center": [
+            7,
+            6
+        ],
+        "Fire Station": [
+            1,
+            5
+        ],
+        "National Museum": [
+            9,
+            6
+        ],
+        "Shopping Mall": [
+            6,
+            3
+        ],
+        "Central Library": [
+            7,
+            8
+        ],
+        "Harbor": [
+            1,
+            0
+        ],
+        "Zoo": [
+            8,
+            9
+        ],
+        "General Hospital": [
+            5,
+            4
+        ],
+        "Grand Park": [
+            5,
+            7
+        ]
+    },
+    "start": "Fire Station",
+    "end": "Central Library",
+    "shortest_path_nodes": [
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "shortest_path_names": [
+        "Fire Station",
+        "i24",
+        "i33",
+        "i43",
+        "i44",
+        "i45",
+        "i54",
+        "i63",
+        "Central Library"
+    ],
+    "shortest_path_landmarks": [
+        "Fire Station",
+        "Central Library"
+    ],
+    "all_shortest_paths_names": [
+        [
+            "Fire Station",
+            "i24",
+            "i33",
+            "i43",
+            "i44",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i24",
+            "i33",
+            "i34",
+            "i44",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i24",
+            "i25",
+            "i34",
+            "i44",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i15",
+            "i25",
+            "i34",
+            "i44",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i24",
+            "i33",
+            "i34",
+            "i35",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i24",
+            "i25",
+            "i34",
+            "i35",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i15",
+            "i25",
+            "i34",
+            "i35",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i24",
+            "i25",
+            "i26",
+            "i35",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i15",
+            "i25",
+            "i26",
+            "i35",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "i15",
+            "i16",
+            "i26",
+            "i35",
+            "i45",
+            "i54",
+            "i63",
+            "Central Library"
+        ]
+    ],
+    "all_shortest_paths_landmarks": [
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ],
+        [
+            "Fire Station",
+            "Central Library"
+        ]
+    ],
+    "num_equivalent_paths": 10,
+    "path_length": 8
+}
