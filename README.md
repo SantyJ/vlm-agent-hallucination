@@ -115,7 +115,7 @@ vlm-agent-hallucination/
 │   ├── heatmaps_final/          # GradCAM overlay images
 │   ├── heatmaps_rollout/        # Attention rollout visualizations
 │   └── plots/                   # Figures for cities and chess domains
-└── requirements_mac.txt         # Python dependencies
+└── requirements.txt             # Python dependencies (LangGraph + Anthropic API)
 ```
 
 ---
@@ -134,11 +134,52 @@ vlm-agent-hallucination/
 
 **Prerequisites:** Python 3.10+, CUDA-capable GPUs for Qwen inference (or swap for API-based VLM).
 
+### 1. Install Python dependencies
+
 ```bash
-pip install -r requirements_mac.txt
+pip install -r requirements.txt
 ```
 
-Set your Anthropic API key:
+### 2. Install GPU dependencies (platform-specific)
+
+The Qwen2-VL inference requires `torch`, `transformers`, and `qwen-vl-utils`. The `torch` installation varies by platform:
+
+**Linux / Windows (CUDA 12.1):**
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install transformers accelerate qwen-vl-utils
+```
+
+**Mac (Apple Silicon, MPS):**
+```bash
+pip install torch torchvision
+pip install transformers accelerate qwen-vl-utils
+```
+
+**CPU only (no GPU):**
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+pip install transformers accelerate qwen-vl-utils
+```
+
+> **Note:** The full experiment was run with 4× RTX 4090 GPUs. CPU inference is extremely slow and not recommended for the full 1,200-trial run.
+
+### 3. Download the Qwen2-VL model
+
+The visual subagents use [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) (~16 GB). Download it with:
+
+```bash
+pip install huggingface_hub
+huggingface-cli download Qwen/Qwen2-VL-7B-Instruct --local-dir ./models/qwen2vl2
+```
+
+Then update `MODEL_PATH` in `2_qwen_multi_gpu.py` to point to your local path:
+
+```python
+MODEL_PATH = "./models/qwen2vl2"  # adjust if needed
+```
+
+### 4. Set your Anthropic API key
 
 ```bash
 export ANTHROPIC_API_KEY=your-key-here
